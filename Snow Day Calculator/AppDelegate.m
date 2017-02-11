@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [FIRApp configure];
     [GADMobileAds configureWithApplicationID:@"ca-app-pub-2350587744441133~4477102808"];
-    NSLog("Test");
+    NSLog(@"Test");
         // Override point for customization after application launch.
     return YES;
 }
