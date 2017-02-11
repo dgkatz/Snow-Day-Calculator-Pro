@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2438E874A67D9B1C7B221FEB /* Pods_Snow_Day_CalculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81290BFAC8DCF9EED9E099B /* Pods_Snow_Day_CalculatorUITests.framework */; };
+		2CFF71DE8136E0BA7A5466FB /* Pods_Snow_Day_CalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2896EC41D216BB61211D7AF3 /* Pods_Snow_Day_CalculatorTests.framework */; };
+		4ACF6B2A8D933B6B7D37DC94 /* Pods_Snow_Day_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1F071B13674D7F90381408 /* Pods_Snow_Day_Calculator.framework */; };
+		6551F0821DE5263A00DB5EB6 /* detailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6551F0811DE5263A00DB5EB6 /* detailViewController.m */; };
+		658A5F491DE0BD74005F8337 /* Forecastr+CLLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 658A5F431DE0BD74005F8337 /* Forecastr+CLLocation.m */; };
+		658A5F4A1DE0BD74005F8337 /* Forecastr.m in Sources */ = {isa = PBXBuildFile; fileRef = 658A5F451DE0BD74005F8337 /* Forecastr.m */; };
+		658A5F4B1DE0BD74005F8337 /* ForecastrAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 658A5F471DE0BD74005F8337 /* ForecastrAPIClient.m */; };
+		658A5F4C1DE0BD74005F8337 /* ForecastrUnits.plist in Resources */ = {isa = PBXBuildFile; fileRef = 658A5F481DE0BD74005F8337 /* ForecastrUnits.plist */; };
+		658B38161DFCA4C100349AC6 /* snowdayicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 658B38151DFCA4C100349AC6 /* snowdayicon.png */; };
+		658B38181DFCA5F700349AC6 /* snowdayiconv2.png in Resources */ = {isa = PBXBuildFile; fileRef = 658B38171DFCA5F700349AC6 /* snowdayiconv2.png */; };
 		659149521DBBE2EE000FDC9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 659149511DBBE2EE000FDC9C /* main.m */; };
 		659149551DBBE2EE000FDC9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 659149541DBBE2EE000FDC9C /* AppDelegate.m */; };
 		659149581DBBE2EE000FDC9C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 659149571DBBE2EE000FDC9C /* ViewController.m */; };
@@ -15,6 +25,37 @@
 		659149601DBBE2EE000FDC9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6591495E1DBBE2EE000FDC9C /* LaunchScreen.storyboard */; };
 		6591496B1DBBE2EE000FDC9C /* Snow_Day_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6591496A1DBBE2EE000FDC9C /* Snow_Day_CalculatorTests.m */; };
 		659149761DBBE2EE000FDC9C /* Snow_Day_CalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 659149751DBBE2EE000FDC9C /* Snow_Day_CalculatorUITests.m */; };
+		659149841DBBE38C000FDC9C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 659149831DBBE38C000FDC9C /* GoogleService-Info.plist */; };
+		659149871DBBF182000FDC9C /* infoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 659149861DBBF182000FDC9C /* infoViewController.m */; };
+		659149891DBC00C2000FDC9C /* snow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659149881DBC00C2000FDC9C /* snow.jpg */; };
+		6591498E1DBC0253000FDC9C /* ANBlurredImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6591498B1DBC0253000FDC9C /* ANBlurredImageView.m */; };
+		6591498F1DBC0253000FDC9C /* UIImage+BoxBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 6591498D1DBC0253000FDC9C /* UIImage+BoxBlur.m */; };
+		659149911DBC02B2000FDC9C /* Snow-flying-iphone-5s-wallpaper-ilikewallpaper_com.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659149901DBC02B2000FDC9C /* Snow-flying-iphone-5s-wallpaper-ilikewallpaper_com.jpg */; };
+		65C7A8901DBC1C6500F09115 /* 21c3142612df3a3678d2d2a3ccdf60b6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65C7A88F1DBC1C6500F09115 /* 21c3142612df3a3678d2d2a3ccdf60b6.jpg */; };
+		65C7A8921DBC1DFE00F09115 /* 519787-98_Wind_Wheel-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7A8911DBC1DFE00F09115 /* 519787-98_Wind_Wheel-512.png */; };
+		65C7A8941DBC1F2300F09115 /* snowflake-alt2-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7A8931DBC1F2300F09115 /* snowflake-alt2-512.png */; };
+		65C7A8961DBC201900F09115 /* 33414-200.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7A8951DBC201900F09115 /* 33414-200.png */; };
+		65C7A89B1DBC25B700F09115 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C7A8981DBC25B700F09115 /* UIImage+ImageEffects.m */; };
+		65C7A89C1DBC25B700F09115 /* UIImageView+LBBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C7A89A1DBC25B700F09115 /* UIImageView+LBBlurredImage.m */; };
+		65E111B71DFC8CC900263030 /* BWMarginLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E111B61DFC8CC900263030 /* BWMarginLabel.m */; };
+		65EBC7331DF3906E0081E698 /* snow day icon40.png in Resources */ = {isa = PBXBuildFile; fileRef = 65EBC7321DF3906E0081E698 /* snow day icon40.png */; };
+		65EBC7351DF3918B0081E698 /* snow day icon60.png in Resources */ = {isa = PBXBuildFile; fileRef = 65EBC7341DF3918B0081E698 /* snow day icon60.png */; };
+		65EBC7371DF392000081E698 /* snow day icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = 65EBC7361DF392000081E698 /* snow day icon58.png */; };
+		65EBC7391DF3927C0081E698 /* snow day icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 65EBC7381DF3927C0081E698 /* snow day icon120.png */; };
+		65EBC73B1DF393360081E698 /* snow day icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = 65EBC73A1DF393360081E698 /* snow day icon80.png */; };
+		65EBC73D1DF3939F0081E698 /* snow day icon87.png in Resources */ = {isa = PBXBuildFile; fileRef = 65EBC73C1DF3939F0081E698 /* snow day icon87.png */; };
+		65EBC73F1DF394530081E698 /* snow day icon180.png in Resources */ = {isa = PBXBuildFile; fileRef = 65EBC73E1DF394530081E698 /* snow day icon180.png */; };
+		65EBC7411DF394E00081E698 /* snow day icon20.png in Resources */ = {isa = PBXBuildFile; fileRef = 65EBC7401DF394E00081E698 /* snow day icon20.png */; };
+		65EBC7431DF3952F0081E698 /* snow day icon29.png in Resources */ = {isa = PBXBuildFile; fileRef = 65EBC7421DF3952F0081E698 /* snow day icon29.png */; };
+		65EBC7451DF3959E0081E698 /* snow day icon76.png in Resources */ = {isa = PBXBuildFile; fileRef = 65EBC7441DF3959E0081E698 /* snow day icon76.png */; };
+		65EBC7471DF396040081E698 /* snow day icon152.png in Resources */ = {isa = PBXBuildFile; fileRef = 65EBC7461DF396040081E698 /* snow day icon152.png */; };
+		65EBC7491DF3965A0081E698 /* snow day icon167.png in Resources */ = {isa = PBXBuildFile; fileRef = 65EBC7481DF3965A0081E698 /* snow day icon167.png */; };
+		65EBC74B1DF3974A0081E698 /* snow day icon (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 65EBC74A1DF3974A0081E698 /* snow day icon (2).png */; };
+		65F06F6C1DE3E4C100983F90 /* snowDayCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F06F6B1DE3E4C100983F90 /* snowDayCalculator.m */; };
+		65F06F6E1DE3EDBC00983F90 /* Snow-Wallpaper-1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65F06F6D1DE3EDBC00983F90 /* Snow-Wallpaper-1024.jpg */; };
+		65F06F701DE3EF7500983F90 /* five-stars2.png in Resources */ = {isa = PBXBuildFile; fileRef = 65F06F6F1DE3EF7500983F90 /* five-stars2.png */; };
+		65F06F721DE3F0F200983F90 /* info-alt-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 65F06F711DE3F0F200983F90 /* info-alt-128.png */; };
+		65F06F741DE3F25700983F90 /* fb-art.png in Resources */ = {isa = PBXBuildFile; fileRef = 65F06F731DE3F25700983F90 /* fb-art.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +76,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C1F071B13674D7F90381408 /* Pods_Snow_Day_Calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snow_Day_Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2896EC41D216BB61211D7AF3 /* Pods_Snow_Day_CalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snow_Day_CalculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DC2D995FB846F9EC4F4F49 /* Pods-Snow Day CalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snow Day CalculatorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snow Day CalculatorUITests/Pods-Snow Day CalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		62AF409E3BD241F177389F16 /* Pods-Snow Day CalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snow Day CalculatorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snow Day CalculatorUITests/Pods-Snow Day CalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6329E573581CE0A7B7AA1184 /* Pods-Snow Day CalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snow Day CalculatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snow Day CalculatorTests/Pods-Snow Day CalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		6551F0801DE5263A00DB5EB6 /* detailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailViewController.h; sourceTree = "<group>"; };
+		6551F0811DE5263A00DB5EB6 /* detailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailViewController.m; sourceTree = "<group>"; };
+		658A5F421DE0BD74005F8337 /* Forecastr+CLLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Forecastr+CLLocation.h"; sourceTree = "<group>"; };
+		658A5F431DE0BD74005F8337 /* Forecastr+CLLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Forecastr+CLLocation.m"; sourceTree = "<group>"; };
+		658A5F441DE0BD74005F8337 /* Forecastr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Forecastr.h; sourceTree = "<group>"; };
+		658A5F451DE0BD74005F8337 /* Forecastr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Forecastr.m; sourceTree = "<group>"; };
+		658A5F461DE0BD74005F8337 /* ForecastrAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForecastrAPIClient.h; sourceTree = "<group>"; };
+		658A5F471DE0BD74005F8337 /* ForecastrAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForecastrAPIClient.m; sourceTree = "<group>"; };
+		658A5F481DE0BD74005F8337 /* ForecastrUnits.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ForecastrUnits.plist; sourceTree = "<group>"; };
+		658B38151DFCA4C100349AC6 /* snowdayicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowdayicon.png; sourceTree = "<group>"; };
+		658B38171DFCA5F700349AC6 /* snowdayiconv2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowdayiconv2.png; sourceTree = "<group>"; };
 		6591494D1DBBE2EE000FDC9C /* Snow Day Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snow Day Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		659149511DBBE2EE000FDC9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		659149531DBBE2EE000FDC9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +108,48 @@
 		659149711DBBE2EE000FDC9C /* Snow Day CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snow Day CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		659149751DBBE2EE000FDC9C /* Snow_Day_CalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Snow_Day_CalculatorUITests.m; sourceTree = "<group>"; };
 		659149771DBBE2EE000FDC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		659149831DBBE38C000FDC9C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		659149851DBBF182000FDC9C /* infoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = infoViewController.h; sourceTree = "<group>"; };
+		659149861DBBF182000FDC9C /* infoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = infoViewController.m; sourceTree = "<group>"; };
+		659149881DBC00C2000FDC9C /* snow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snow.jpg; sourceTree = "<group>"; };
+		6591498A1DBC0253000FDC9C /* ANBlurredImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANBlurredImageView.h; sourceTree = "<group>"; };
+		6591498B1DBC0253000FDC9C /* ANBlurredImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANBlurredImageView.m; sourceTree = "<group>"; };
+		6591498C1DBC0253000FDC9C /* UIImage+BoxBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BoxBlur.h"; sourceTree = "<group>"; };
+		6591498D1DBC0253000FDC9C /* UIImage+BoxBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BoxBlur.m"; sourceTree = "<group>"; };
+		659149901DBC02B2000FDC9C /* Snow-flying-iphone-5s-wallpaper-ilikewallpaper_com.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Snow-flying-iphone-5s-wallpaper-ilikewallpaper_com.jpg"; sourceTree = "<group>"; };
+		65C7A88F1DBC1C6500F09115 /* 21c3142612df3a3678d2d2a3ccdf60b6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 21c3142612df3a3678d2d2a3ccdf60b6.jpg; sourceTree = "<group>"; };
+		65C7A8911DBC1DFE00F09115 /* 519787-98_Wind_Wheel-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "519787-98_Wind_Wheel-512.png"; sourceTree = "<group>"; };
+		65C7A8931DBC1F2300F09115 /* snowflake-alt2-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snowflake-alt2-512.png"; sourceTree = "<group>"; };
+		65C7A8951DBC201900F09115 /* 33414-200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "33414-200.png"; sourceTree = "<group>"; };
+		65C7A8971DBC25B700F09115 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		65C7A8981DBC25B700F09115 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		65C7A8991DBC25B700F09115 /* UIImageView+LBBlurredImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LBBlurredImage.h"; sourceTree = "<group>"; };
+		65C7A89A1DBC25B700F09115 /* UIImageView+LBBlurredImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LBBlurredImage.m"; sourceTree = "<group>"; };
+		65E111B51DFC8CC900263030 /* BWMarginLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWMarginLabel.h; sourceTree = "<group>"; };
+		65E111B61DFC8CC900263030 /* BWMarginLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWMarginLabel.m; sourceTree = "<group>"; };
+		65EBC7321DF3906E0081E698 /* snow day icon40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snow day icon40.png"; sourceTree = "<group>"; };
+		65EBC7341DF3918B0081E698 /* snow day icon60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snow day icon60.png"; sourceTree = "<group>"; };
+		65EBC7361DF392000081E698 /* snow day icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snow day icon58.png"; sourceTree = "<group>"; };
+		65EBC7381DF3927C0081E698 /* snow day icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snow day icon120.png"; sourceTree = "<group>"; };
+		65EBC73A1DF393360081E698 /* snow day icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snow day icon80.png"; sourceTree = "<group>"; };
+		65EBC73C1DF3939F0081E698 /* snow day icon87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snow day icon87.png"; sourceTree = "<group>"; };
+		65EBC73E1DF394530081E698 /* snow day icon180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snow day icon180.png"; sourceTree = "<group>"; };
+		65EBC7401DF394E00081E698 /* snow day icon20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snow day icon20.png"; sourceTree = "<group>"; };
+		65EBC7421DF3952F0081E698 /* snow day icon29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snow day icon29.png"; sourceTree = "<group>"; };
+		65EBC7441DF3959E0081E698 /* snow day icon76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snow day icon76.png"; sourceTree = "<group>"; };
+		65EBC7461DF396040081E698 /* snow day icon152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snow day icon152.png"; sourceTree = "<group>"; };
+		65EBC7481DF3965A0081E698 /* snow day icon167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snow day icon167.png"; sourceTree = "<group>"; };
+		65EBC74A1DF3974A0081E698 /* snow day icon (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snow day icon (2).png"; sourceTree = "<group>"; };
+		65F06F6A1DE3E4C100983F90 /* snowDayCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = snowDayCalculator.h; sourceTree = "<group>"; };
+		65F06F6B1DE3E4C100983F90 /* snowDayCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = snowDayCalculator.m; sourceTree = "<group>"; };
+		65F06F6D1DE3EDBC00983F90 /* Snow-Wallpaper-1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Snow-Wallpaper-1024.jpg"; sourceTree = "<group>"; };
+		65F06F6F1DE3EF7500983F90 /* five-stars2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "five-stars2.png"; sourceTree = "<group>"; };
+		65F06F711DE3F0F200983F90 /* info-alt-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info-alt-128.png"; sourceTree = "<group>"; };
+		65F06F731DE3F25700983F90 /* fb-art.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fb-art.png"; sourceTree = "<group>"; };
+		9608A8FF501E912D20579BF4 /* Pods-Snow Day Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snow Day Calculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snow Day Calculator/Pods-Snow Day Calculator.debug.xcconfig"; sourceTree = "<group>"; };
+		E3563D7AC53FC26B4F110538 /* Pods-Snow Day Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snow Day Calculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snow Day Calculator/Pods-Snow Day Calculator.release.xcconfig"; sourceTree = "<group>"; };
+		F1E568B8BC40663342A3F51B /* Pods-Snow Day CalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snow Day CalculatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snow Day CalculatorTests/Pods-Snow Day CalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F81290BFAC8DCF9EED9E099B /* Pods_Snow_Day_CalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snow_Day_CalculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +157,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ACF6B2A8D933B6B7D37DC94 /* Pods_Snow_Day_Calculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +165,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CFF71DE8136E0BA7A5466FB /* Pods_Snow_Day_CalculatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +173,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2438E874A67D9B1C7B221FEB /* Pods_Snow_Day_CalculatorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53191D31C7A1E4A4F1E49623 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9608A8FF501E912D20579BF4 /* Pods-Snow Day Calculator.debug.xcconfig */,
+				E3563D7AC53FC26B4F110538 /* Pods-Snow Day Calculator.release.xcconfig */,
+				F1E568B8BC40663342A3F51B /* Pods-Snow Day CalculatorTests.debug.xcconfig */,
+				6329E573581CE0A7B7AA1184 /* Pods-Snow Day CalculatorTests.release.xcconfig */,
+				62AF409E3BD241F177389F16 /* Pods-Snow Day CalculatorUITests.debug.xcconfig */,
+				31DC2D995FB846F9EC4F4F49 /* Pods-Snow Day CalculatorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		609B36AB60597F5F5AFF87E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C1F071B13674D7F90381408 /* Pods_Snow_Day_Calculator.framework */,
+				2896EC41D216BB61211D7AF3 /* Pods_Snow_Day_CalculatorTests.framework */,
+				F81290BFAC8DCF9EED9E099B /* Pods_Snow_Day_CalculatorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		658A5F411DE0BD74005F8337 /* Forecastr */ = {
+			isa = PBXGroup;
+			children = (
+				658A5F421DE0BD74005F8337 /* Forecastr+CLLocation.h */,
+				658A5F431DE0BD74005F8337 /* Forecastr+CLLocation.m */,
+				658A5F441DE0BD74005F8337 /* Forecastr.h */,
+				658A5F451DE0BD74005F8337 /* Forecastr.m */,
+				658A5F461DE0BD74005F8337 /* ForecastrAPIClient.h */,
+				658A5F471DE0BD74005F8337 /* ForecastrAPIClient.m */,
+				658A5F481DE0BD74005F8337 /* ForecastrUnits.plist */,
+			);
+			path = Forecastr;
+			sourceTree = "<group>";
+		};
 		659149441DBBE2EE000FDC9C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +224,8 @@
 				659149691DBBE2EE000FDC9C /* Snow Day CalculatorTests */,
 				659149741DBBE2EE000FDC9C /* Snow Day CalculatorUITests */,
 				6591494E1DBBE2EE000FDC9C /* Products */,
+				53191D31C7A1E4A4F1E49623 /* Pods */,
+				609B36AB60597F5F5AFF87E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +242,22 @@
 		6591494F1DBBE2EE000FDC9C /* Snow Day Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				659149831DBBE38C000FDC9C /* GoogleService-Info.plist */,
 				659149531DBBE2EE000FDC9C /* AppDelegate.h */,
 				659149541DBBE2EE000FDC9C /* AppDelegate.m */,
 				659149561DBBE2EE000FDC9C /* ViewController.h */,
 				659149571DBBE2EE000FDC9C /* ViewController.m */,
+				659149851DBBF182000FDC9C /* infoViewController.h */,
+				659149861DBBF182000FDC9C /* infoViewController.m */,
 				659149591DBBE2EE000FDC9C /* Main.storyboard */,
 				6591495C1DBBE2EE000FDC9C /* Assets.xcassets */,
 				6591495E1DBBE2EE000FDC9C /* LaunchScreen.storyboard */,
 				659149611DBBE2EE000FDC9C /* Info.plist */,
 				659149501DBBE2EE000FDC9C /* Supporting Files */,
+				65F06F6A1DE3E4C100983F90 /* snowDayCalculator.h */,
+				65F06F6B1DE3E4C100983F90 /* snowDayCalculator.m */,
+				6551F0801DE5263A00DB5EB6 /* detailViewController.h */,
+				6551F0811DE5263A00DB5EB6 /* detailViewController.m */,
 			);
 			path = "Snow Day Calculator";
 			sourceTree = "<group>";
@@ -117,6 +265,42 @@
 		659149501DBBE2EE000FDC9C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				658B38171DFCA5F700349AC6 /* snowdayiconv2.png */,
+				658B38151DFCA4C100349AC6 /* snowdayicon.png */,
+				65E111B51DFC8CC900263030 /* BWMarginLabel.h */,
+				65E111B61DFC8CC900263030 /* BWMarginLabel.m */,
+				65EBC74A1DF3974A0081E698 /* snow day icon (2).png */,
+				65EBC7481DF3965A0081E698 /* snow day icon167.png */,
+				65EBC7461DF396040081E698 /* snow day icon152.png */,
+				65EBC7441DF3959E0081E698 /* snow day icon76.png */,
+				65EBC7421DF3952F0081E698 /* snow day icon29.png */,
+				65EBC7401DF394E00081E698 /* snow day icon20.png */,
+				65EBC73E1DF394530081E698 /* snow day icon180.png */,
+				65EBC73C1DF3939F0081E698 /* snow day icon87.png */,
+				65EBC73A1DF393360081E698 /* snow day icon80.png */,
+				65EBC7381DF3927C0081E698 /* snow day icon120.png */,
+				65EBC7361DF392000081E698 /* snow day icon58.png */,
+				65EBC7341DF3918B0081E698 /* snow day icon60.png */,
+				65EBC7321DF3906E0081E698 /* snow day icon40.png */,
+				65F06F731DE3F25700983F90 /* fb-art.png */,
+				65F06F711DE3F0F200983F90 /* info-alt-128.png */,
+				65F06F6F1DE3EF7500983F90 /* five-stars2.png */,
+				65F06F6D1DE3EDBC00983F90 /* Snow-Wallpaper-1024.jpg */,
+				658A5F411DE0BD74005F8337 /* Forecastr */,
+				65C7A8971DBC25B700F09115 /* UIImage+ImageEffects.h */,
+				65C7A8981DBC25B700F09115 /* UIImage+ImageEffects.m */,
+				65C7A8991DBC25B700F09115 /* UIImageView+LBBlurredImage.h */,
+				65C7A89A1DBC25B700F09115 /* UIImageView+LBBlurredImage.m */,
+				65C7A8951DBC201900F09115 /* 33414-200.png */,
+				65C7A8931DBC1F2300F09115 /* snowflake-alt2-512.png */,
+				65C7A8911DBC1DFE00F09115 /* 519787-98_Wind_Wheel-512.png */,
+				65C7A88F1DBC1C6500F09115 /* 21c3142612df3a3678d2d2a3ccdf60b6.jpg */,
+				659149901DBC02B2000FDC9C /* Snow-flying-iphone-5s-wallpaper-ilikewallpaper_com.jpg */,
+				6591498A1DBC0253000FDC9C /* ANBlurredImageView.h */,
+				6591498B1DBC0253000FDC9C /* ANBlurredImageView.m */,
+				6591498C1DBC0253000FDC9C /* UIImage+BoxBlur.h */,
+				6591498D1DBC0253000FDC9C /* UIImage+BoxBlur.m */,
+				659149881DBC00C2000FDC9C /* snow.jpg */,
 				659149511DBBE2EE000FDC9C /* main.m */,
 			);
 			name = "Supporting Files";
@@ -147,9 +331,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6591497A1DBBE2EE000FDC9C /* Build configuration list for PBXNativeTarget "Snow Day Calculator" */;
 			buildPhases = (
+				CB70EF51F589E7A2EDD01CD2 /* [CP] Check Pods Manifest.lock */,
 				659149491DBBE2EE000FDC9C /* Sources */,
 				6591494A1DBBE2EE000FDC9C /* Frameworks */,
 				6591494B1DBBE2EE000FDC9C /* Resources */,
+				6F21B7107BBB4EDAD7E570F1 /* [CP] Embed Pods Frameworks */,
+				DDFD88113E4BBEF4E24825BA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +351,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6591497D1DBBE2EE000FDC9C /* Build configuration list for PBXNativeTarget "Snow Day CalculatorTests" */;
 			buildPhases = (
+				E3E5E3A5B3F042780031A6C5 /* [CP] Check Pods Manifest.lock */,
 				659149621DBBE2EE000FDC9C /* Sources */,
 				659149631DBBE2EE000FDC9C /* Frameworks */,
 				659149641DBBE2EE000FDC9C /* Resources */,
+				893025959C1FB91CD263E23E /* [CP] Embed Pods Frameworks */,
+				4B03DA95E84B5842BA8DA0F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +372,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 659149801DBBE2EE000FDC9C /* Build configuration list for PBXNativeTarget "Snow Day CalculatorUITests" */;
 			buildPhases = (
+				CEF93C45DF7843342D24A057 /* [CP] Check Pods Manifest.lock */,
 				6591496D1DBBE2EE000FDC9C /* Sources */,
 				6591496E1DBBE2EE000FDC9C /* Frameworks */,
 				6591496F1DBBE2EE000FDC9C /* Resources */,
+				4F88CC354512C57439462D12 /* [CP] Embed Pods Frameworks */,
+				203B9EFF7AB7AB32F766A978 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,9 +442,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				659149891DBC00C2000FDC9C /* snow.jpg in Resources */,
+				658B38161DFCA4C100349AC6 /* snowdayicon.png in Resources */,
+				65EBC7491DF3965A0081E698 /* snow day icon167.png in Resources */,
+				65C7A8941DBC1F2300F09115 /* snowflake-alt2-512.png in Resources */,
+				65F06F6E1DE3EDBC00983F90 /* Snow-Wallpaper-1024.jpg in Resources */,
+				65EBC7371DF392000081E698 /* snow day icon58.png in Resources */,
+				659149911DBC02B2000FDC9C /* Snow-flying-iphone-5s-wallpaper-ilikewallpaper_com.jpg in Resources */,
 				659149601DBBE2EE000FDC9C /* LaunchScreen.storyboard in Resources */,
+				658B38181DFCA5F700349AC6 /* snowdayiconv2.png in Resources */,
+				65F06F721DE3F0F200983F90 /* info-alt-128.png in Resources */,
+				65EBC7451DF3959E0081E698 /* snow day icon76.png in Resources */,
+				65EBC7351DF3918B0081E698 /* snow day icon60.png in Resources */,
+				65EBC7331DF3906E0081E698 /* snow day icon40.png in Resources */,
+				659149841DBBE38C000FDC9C /* GoogleService-Info.plist in Resources */,
+				65C7A8921DBC1DFE00F09115 /* 519787-98_Wind_Wheel-512.png in Resources */,
 				6591495D1DBBE2EE000FDC9C /* Assets.xcassets in Resources */,
+				65F06F701DE3EF7500983F90 /* five-stars2.png in Resources */,
+				65F06F741DE3F25700983F90 /* fb-art.png in Resources */,
+				65EBC7411DF394E00081E698 /* snow day icon20.png in Resources */,
+				65EBC7431DF3952F0081E698 /* snow day icon29.png in Resources */,
+				658A5F4C1DE0BD74005F8337 /* ForecastrUnits.plist in Resources */,
+				65C7A8901DBC1C6500F09115 /* 21c3142612df3a3678d2d2a3ccdf60b6.jpg in Resources */,
+				65EBC73B1DF393360081E698 /* snow day icon80.png in Resources */,
+				65C7A8961DBC201900F09115 /* 33414-200.png in Resources */,
+				65EBC73F1DF394530081E698 /* snow day icon180.png in Resources */,
+				65EBC73D1DF3939F0081E698 /* snow day icon87.png in Resources */,
+				65EBC7471DF396040081E698 /* snow day icon152.png in Resources */,
+				65EBC74B1DF3974A0081E698 /* snow day icon (2).png in Resources */,
 				6591495B1DBBE2EE000FDC9C /* Main.storyboard in Resources */,
+				65EBC7391DF3927C0081E698 /* snow day icon120.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +491,163 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		203B9EFF7AB7AB32F766A978 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snow Day CalculatorUITests/Pods-Snow Day CalculatorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B03DA95E84B5842BA8DA0F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snow Day CalculatorTests/Pods-Snow Day CalculatorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F88CC354512C57439462D12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snow Day CalculatorUITests/Pods-Snow Day CalculatorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F21B7107BBB4EDAD7E570F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snow Day Calculator/Pods-Snow Day Calculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		893025959C1FB91CD263E23E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snow Day CalculatorTests/Pods-Snow Day CalculatorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB70EF51F589E7A2EDD01CD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CEF93C45DF7843342D24A057 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDFD88113E4BBEF4E24825BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snow Day Calculator/Pods-Snow Day Calculator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3E5E3A5B3F042780031A6C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		659149491DBBE2EE000FDC9C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6591498F1DBC0253000FDC9C /* UIImage+BoxBlur.m in Sources */,
+				65F06F6C1DE3E4C100983F90 /* snowDayCalculator.m in Sources */,
+				658A5F4B1DE0BD74005F8337 /* ForecastrAPIClient.m in Sources */,
+				658A5F4A1DE0BD74005F8337 /* Forecastr.m in Sources */,
+				658A5F491DE0BD74005F8337 /* Forecastr+CLLocation.m in Sources */,
+				65E111B71DFC8CC900263030 /* BWMarginLabel.m in Sources */,
 				659149581DBBE2EE000FDC9C /* ViewController.m in Sources */,
+				65C7A89B1DBC25B700F09115 /* UIImage+ImageEffects.m in Sources */,
+				6591498E1DBC0253000FDC9C /* ANBlurredImageView.m in Sources */,
+				6551F0821DE5263A00DB5EB6 /* detailViewController.m in Sources */,
 				659149551DBBE2EE000FDC9C /* AppDelegate.m in Sources */,
+				659149871DBBF182000FDC9C /* infoViewController.m in Sources */,
 				659149521DBBE2EE000FDC9C /* main.m in Sources */,
+				65C7A89C1DBC25B700F09115 /* UIImageView+LBBlurredImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,32 +792,48 @@
 		};
 		6591497B1DBBE2EE000FDC9C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9608A8FF501E912D20579BF4 /* Pods-Snow Day Calculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Korrent Corporation (56SYM3NGXF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 56SYM3NGXF;
 				INFOPLIST_FILE = "Snow Day Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.strattondesign.Snow-Day-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		6591497C1DBBE2EE000FDC9C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3563D7AC53FC26B4F110538 /* Pods-Snow Day Calculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Korrent Corporation (56SYM3NGXF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 56SYM3NGXF;
 				INFOPLIST_FILE = "Snow Day Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.strattondesign.Snow-Day-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		6591497E1DBBE2EE000FDC9C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E568B8BC40663342A3F51B /* Pods-Snow Day CalculatorTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 56SYM3NGXF;
 				INFOPLIST_FILE = "Snow Day CalculatorTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -460,8 +845,10 @@
 		};
 		6591497F1DBBE2EE000FDC9C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6329E573581CE0A7B7AA1184 /* Pods-Snow Day CalculatorTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 56SYM3NGXF;
 				INFOPLIST_FILE = "Snow Day CalculatorTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -473,7 +860,10 @@
 		};
 		659149811DBBE2EE000FDC9C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62AF409E3BD241F177389F16 /* Pods-Snow Day CalculatorUITests.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 56SYM3NGXF;
 				INFOPLIST_FILE = "Snow Day CalculatorUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -485,7 +875,10 @@
 		};
 		659149821DBBE2EE000FDC9C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31DC2D995FB846F9EC4F4F49 /* Pods-Snow Day CalculatorUITests.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 56SYM3NGXF;
 				INFOPLIST_FILE = "Snow Day CalculatorUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -514,6 +907,7 @@
 				6591497C1DBBE2EE000FDC9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6591497D1DBBE2EE000FDC9C /* Build configuration list for PBXNativeTarget "Snow Day CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +916,7 @@
 				6591497F1DBBE2EE000FDC9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		659149801DBBE2EE000FDC9C /* Build configuration list for PBXNativeTarget "Snow Day CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +925,7 @@
 				659149821DBBE2EE000FDC9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
