@@ -1,0 +1,2024 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C05031BBA5BA48A00FE41348F41BDA /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F90293FD6E267648ACEA0F83BC71068 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0882C54F87FC8AA36784F4C9807F41EE /* Pods-Snow Day CalculatorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE47AB605AAAFC28C66BD9990D98911B /* Pods-Snow Day CalculatorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1FFD30267C0776FD3E88EFF51E312F /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA5996E32AD32C349FA07C89A759B6F /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		140F458AB7312414FC423FEED70A3733 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFD1C59974F3C85955157C5F1DB294E /* UIActivityIndicatorView+AFNetworking.m */; };
+		1488E9BD5532C6379221C9405B86340C /* INTULocationManager+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CD2C6681272DE69659D844B550FA30D0 /* INTULocationManager+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		156FA9C448DC67DEED56D7D7C6D97208 /* INTULocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C124C70FAF90CB671E558A4AE61994A /* INTULocationManager.m */; };
+		17C718CA3D36C65305618530ADE3CCA8 /* BFPaperButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D708E70707D8AE0EFFC9D1B88C17DD9D /* BFPaperButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E2A6D057E20BE8F5ED3E594F7B8C286 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E9EBAB3109313F97559999A1337FD2 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		200D57A5303CEB59EEB441C65304DE54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350C35CE98CADF9A34D2C30568D2C89C /* Foundation.framework */; };
+		21546BC02382FE26D1584347268796D7 /* INTULocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6948EB1CFF776165DCC972D85E52A2EB /* INTULocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23EFB184AD12FB1014FFC765CE0D710A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3076143126055C32B4622C7091B768 /* Security.framework */; };
+		28818D2A2515DCB4353FBA631E3802A8 /* MBCircularProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA2A85E91472D9682C2A12B3F362E1A /* MBCircularProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29476636EA86BEFC4CB833D3BB7A52D7 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A89CB968757EBB3A60075C437880D20C /* AFURLRequestSerialization.m */; };
+		29D1A2C7DDF7D1E1DB4B5041926753FD /* INTULocationManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D56032CA26ED83029757ABF8D2DB491E /* INTULocationManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B0705CC26A4CBEE32A5A60284AED35B /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = BD3126958610DEF0A6445A1FE662CFB8 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3159D7CAFD56B809F40CA3330DA10889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350C35CE98CADF9A34D2C30568D2C89C /* Foundation.framework */; };
+		319581EA06B005E7BDEB2C12B37266A8 /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = 39FD27C15760028D088D4802BC7A85AC /* example.png */; };
+		31DD7673618BF6AF59FC68A69722345D /* INTUHeadingRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E684E944602D8146BB426EE370B975F4 /* INTUHeadingRequest.m */; };
+		32076D3DD644045CF79DFFEBB6BFF3F2 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3607E55547E7D41A7EB31529D1F9F3 /* UIButton+AFNetworking.m */; };
+		337323E176DFB535C7024A41100B3A11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350C35CE98CADF9A34D2C30568D2C89C /* Foundation.framework */; };
+		34C88657FE7ABE9F833623F94952D253 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5291307A4F4AF221070E0034B5CAAF2F /* UIProgressView+AFNetworking.m */; };
+		359162634AD50A9B464062F416C25808 /* Pods-Snow Day Calculator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5512D37661189A9B9F576A6EC877EF96 /* Pods-Snow Day Calculator-dummy.m */; };
+		35CBB7B255FD8D412AFCECBC4311A847 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 02781CBD8F0EF67054DF463D8DC7DD06 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		374950D0E01AE1218457FA953F1B1965 /* BFPaperButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 92481493874A15ADAFE1CB89E4E6EEFA /* BFPaperButton.m */; };
+		4442D8453D210EFC13CFE2CAF862ED1D /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F330D4482B92FD970CBA36EA1E2ACEE0 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45F802D04B3BE0CAEC586C2F3016027B /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 065F257607E819B587428FF185837850 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47F04CBDF6C54B220F6AEECEF15264D5 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B35B4DC29A72522D109D6C46307F0CB /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B74132BFB0940A10B09CF5D4F86C2F8 /* BFPaperButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D49B44B9F0D7C1F3086B9FDF7CB2442 /* BFPaperButton-dummy.m */; };
+		51047C1945103943F70BEADE83725630 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F939B562C2E7E4193F0E6EB92BDEE9 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51B646567E08A191AF3EF8535BBA1713 /* Pods-Snow Day CalculatorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98463E43785B8309717EA4F21EB924F3 /* Pods-Snow Day CalculatorTests-dummy.m */; };
+		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = DF5A56EB24E17670B03C800890A98931 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A1D34D104D42B1EE399E23BCD7935A0 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A76E96CC2DAA6478722A60D3A35FFC99 /* AFURLResponseSerialization.m */; };
+		5D87F3DADCD4493C556A08CE44F15C8B /* MBCircularProgressBarLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E3E1F68F22366DB7B7BD577441831B6 /* MBCircularProgressBarLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		649E78B5EA450FABDF5201E31F265FAB /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2CC92595CA663E297FC49F410A10ED /* AFNetworkActivityIndicatorManager.m */; };
+		6573AF9ABA59AC8D1F52B07088197F71 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6716C19075E0EC973B075DD40AE80AFC /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72BE65E696A388D4CC0D75BE461FEF1B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268F47AC608D1CB011B9CAEAEA7B8824 /* MobileCoreServices.framework */; };
+		77C8278B25BBE7290F8A0818E1705A86 /* MBCircularProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4035C5051D898AAEB0A31D092C65DFAC /* MBCircularProgressBar-dummy.m */; };
+		7A112C0F21A62CB6F1AA8D917A6EEA6C /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 651E62A213ED49C9F59F09B4C27668B4 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B5656D4FDD9E33EA4EAFB591F9D3237 /* MBCircularProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 346CB7EEEB4035DABC76D20676DE9678 /* MBCircularProgressBarView.m */; };
+		7CE16B1BF75DF396768A0A3CFD968DB1 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F0536CF957EC483398EF7CC58CE43A8B /* UIWebView+AFNetworking.m */; };
+		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CFD8A690D486462D27E7371B9D52461 /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82B6E3BB000BCCB4672B18DE8FFA8D0D /* INTULocationRequestDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = DA4878F9A1571D9003030A55D42AA4E7 /* INTULocationRequestDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		860E9BD386FCD48DB9FDA885FB22255F /* INTURequestIDGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDCCBA3C16F7996557C1BB64C717B5F /* INTURequestIDGenerator.m */; };
+		9264BD69AFA8EE74F0D7F0EBD74F762F /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E82E9C03B0D28F679D525EA4340EE61 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93DF3E0EE780C6ACB49739731776FD45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350C35CE98CADF9A34D2C30568D2C89C /* Foundation.framework */; };
+		93DFC0CC12E763AE770017349EE009D1 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 56FD5A2E6A432E7EC88288E148A62980 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		948458DC0A9308A2D8C018C37FB7BBDD /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = B3BCA5E21343D6682FA3DE3D60B20E53 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		985455937E6A5BB0F688114602D14646 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350C35CE98CADF9A34D2C30568D2C89C /* Foundation.framework */; };
+		A17E6E1C53C7D3D2FA803DF74A013B78 /* MBCircularProgressBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC7965B308C7B6E2DE7A4BD3EB94A4A /* MBCircularProgressBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3591DEDA776B48C026E7F9144981E58 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A622B410675186E5FF3561121D57EF /* AFAutoPurgingImageCache.m */; };
+		A398D63C8DED664D99A864D79881A13C /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = E666FDCB406548FFD5DBA6E82192F36E /* AFImageDownloader.m */; };
+		A94A11448B594303235C9908A4F04A8C /* MBCircularProgressBarLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DD177944277C4AB632D6C94ECBE29A /* MBCircularProgressBarLayer.m */; };
+		ABF93FCB1E7333C4DA22900A7789ACC8 /* MBCircularProgressBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8E14730646FDB104A30355770E15BBD3 /* MBCircularProgressBar.bundle */; };
+		AE976B0E8E3DD81E4F49DBEF19D3C0AD /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D45306171E162F7577A0E36AC89E78F /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEDB5A09C919B2C76A5CDDDEED1AB2F1 /* INTULocationManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6C3E84EC9DB4125453359C1F47CA4E /* INTULocationManager-dummy.m */; };
+		B16A078FC7FBC172A266A336AEF7F673 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBB345B6EF040280063DAABA1A2F149 /* UIRefreshControl+AFNetworking.m */; };
+		BA2D29D9265012FAC7A88D9A8CCD9989 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20CB4FD24578B35484925C4D9A27FC62 /* CoreGraphics.framework */; };
+		BC22E83FBE012D2A1B6B72B886832AF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350C35CE98CADF9A34D2C30568D2C89C /* Foundation.framework */; };
+		BF405FBDE2B9856639547B3423CC89A2 /* INTULocationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5957AB6CD1793BB8B2FD0EF2DA18935B /* INTULocationRequest.m */; };
+		CE2EB8CE3176F8A1FAA78CC8786292CC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CDEAF9A7B094320750DE7B89E4EC5B /* SystemConfiguration.framework */; };
+		CE8E7F2C5B466D44689EFF48163E9295 /* Pods-Snow Day CalculatorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3528649E3092DCF46911F76BA2927B8C /* Pods-Snow Day CalculatorUITests-dummy.m */; };
+		CEB2F0E229EF841D92C780C3FFDF1BEA /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5528B4C20A9F16745D1449FED24088A2 /* AFSecurityPolicy.m */; };
+		CF287829627F26B2EB4382B897D06A0E /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF2EF8BB55A088B48D3F772E4F5A44E /* AFNetworking-dummy.m */; };
+		D063B05C396E0F79974DEF371A5BD58D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350C35CE98CADF9A34D2C30568D2C89C /* Foundation.framework */; };
+		D4E80BD7EAAB83200183110578A80591 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6A30843F1D731BDA6A111AF8740DA6 /* AFURLSessionManager.m */; };
+		D8E4D09482C1775B19A79AFAC89DC5D6 /* Pods-Snow Day Calculator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 730D2C74695C0C2867278B014180267B /* Pods-Snow Day Calculator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 39A0A5BD7B1C8CCBB8D49471B9A32855 /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD887A93A200A87A51B3D00BD1B80D20 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC7E53218B01876D60935940BA52376 /* AFNetworkReachabilityManager.m */; };
+		DEA2AEF28562AD6951D233089709E705 /* BFPaperButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D09FE474749FA888E1F17018D0137B7D /* BFPaperButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0E1039D6CCDF693BF6771F4FB086280 /* Pods-Snow Day CalculatorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB62C2C7A1D6F6E2A991496356F0E81E /* Pods-Snow Day CalculatorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E23B9A6F533461CB33C0FA6FB59E3AB2 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DCB3DC451F0BF7782D379C888EAB460 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3F155D2D24D95188552AA2B02124077 /* INTUHeadingRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F2A1B0D76682683A25E1E8FA6FCC46E9 /* INTUHeadingRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAF16633DB3C992CF975BE4A2932D41C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F437153D66B00728E8F9C5282A61F0B /* AFHTTPSessionManager.m */; };
+		EC2D810ABC3BE27AEA28D176BB7EEE74 /* INTULocationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 788E6BF664C981A693B1842139C47B55 /* INTULocationRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDA38BDB7DEA4B1356D3D633D6FE6BA6 /* INTURequestIDGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = C9CA7A375243206B11022B3C11C4BD59 /* INTURequestIDGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1CAA2EBDDFF558DEF98684F2479A7AF /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B0A9FC8966756AA74C2755AEBA3C361 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2D899C7AA0D7FC20160091BB9D31CF3 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D66CE37B41789943D67ACD61BABF43C /* UIImageView+AFNetworking.m */; };
+		F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E73B4A041F63137132B1D1161E14034 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F84DD74BB7F612DE372F8C051420DF72 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B71D59285474AAF4AAA4347CE04CD /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8C312F6DD0048872E4963078DA88FEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350C35CE98CADF9A34D2C30568D2C89C /* Foundation.framework */; };
+		FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEF5A436E164844C52E8D7F0EB4C3BB /* GoogleToolboxForMac-dummy.m */; };
+		FEF6EACE962EAE70E2EAC5F3C83EF7C8 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = CC830B6CFDBD9FB489046AF834CED6CA /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		301A6F64EDD08CFF4C105CE828187E61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAC840DD7C14BED838F74AD37CD7CBBA;
+			remoteInfo = "MBCircularProgressBar-MBCircularProgressBar";
+		};
+		4E916F1723B5FE6B8B194DF75ED35534 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AD0BB4A92A7E15CDA2D402E6AF3639E;
+			remoteInfo = BFPaperButton;
+		};
+		66EABE9B2D84226C8FCA6A9E4A81D932 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E683DB16DC4643221505F9973C9BC36;
+			remoteInfo = INTULocationManager;
+		};
+		9914375C17D91173DBBCDD47FA887950 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00103D6C821BE85971C563025527BA5D;
+			remoteInfo = GoogleToolboxForMac;
+		};
+		9F3E7011B3D7FB2579F23B871FC4C272 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF671F7E57B92905F1CC91D036D6B4A7;
+			remoteInfo = AFNetworking;
+		};
+		F3C4B9012EE97A7F4C90930924CA9D12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F579AA4D4755DD9570010BC36D0422F7;
+			remoteInfo = MBCircularProgressBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02781CBD8F0EF67054DF463D8DC7DD06 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		065F257607E819B587428FF185837850 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		082D339CAF51C77A502F7C0A60AB8320 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		0CFD8A690D486462D27E7371B9D52461 /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		0DE6182B2CD76C59A36819891EDB73BF /* INTULocationManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = INTULocationManager.xcconfig; sourceTree = "<group>"; };
+		0E13861CEDA8B44EA7B3EA87674C9F4C /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		0E3E1F68F22366DB7B7BD577441831B6 /* MBCircularProgressBarLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBCircularProgressBarLayer.h; path = Pod/Classes/MBCircularProgressBarLayer.h; sourceTree = "<group>"; };
+		0E82E9C03B0D28F679D525EA4340EE61 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		0EF53D5541906F2417509AA7BCC94956 /* Pods-Snow Day CalculatorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Snow Day CalculatorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F437153D66B00728E8F9C5282A61F0B /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		0F67371F3510877A55DE7D18765EDE44 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10A91653E2647EBC2329270E726FB265 /* Pods_Snow_Day_CalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Snow_Day_CalculatorTests.framework; path = "Pods-Snow Day CalculatorTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		129CB2B9A91F5B1DF2FA4290AE6BDA0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16DAB8923AAA026E5417008FB1D8CDA0 /* BFPaperButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BFPaperButton-prefix.pch"; sourceTree = "<group>"; };
+		19AE5396592B7EC4E1284F0F7BACDCA8 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		1B0A9FC8966756AA74C2755AEBA3C361 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		1B35B4DC29A72522D109D6C46307F0CB /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		1CB6A7E3CC4D2C38F82BCCCAD993DF95 /* Pods-Snow Day CalculatorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Snow Day CalculatorUITests.modulemap"; sourceTree = "<group>"; };
+		1D259301D44A6A8ECD4509D64BD3643D /* Pods-Snow Day CalculatorTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Snow Day CalculatorTests-resources.sh"; sourceTree = "<group>"; };
+		1E7C14D5721A7C8311E818132732D2C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F90293FD6E267648ACEA0F83BC71068 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		20CB4FD24578B35484925C4D9A27FC62 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		23CC4F66DE19131C673138A648A4C45C /* BFPaperButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BFPaperButton.xcconfig; sourceTree = "<group>"; };
+		268F47AC608D1CB011B9CAEAEA7B8824 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		2A2CC92595CA663E297FC49F410A10ED /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		2AC7965B308C7B6E2DE7A4BD3EB94A4A /* MBCircularProgressBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBCircularProgressBarView.h; path = Pod/Classes/MBCircularProgressBarView.h; sourceTree = "<group>"; };
+		2AC7E53218B01876D60935940BA52376 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		2E8F12D81B9260E5960DBC616CC9A734 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		2EDCCBA3C16F7996557C1BB64C717B5F /* INTURequestIDGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INTURequestIDGenerator.m; path = LocationManager/INTULocationManager/INTURequestIDGenerator.m; sourceTree = "<group>"; };
+		2FEF5A436E164844C52E8D7F0EB4C3BB /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		3389E1AE65922674BCDB51EF06B7B1A4 /* BFPaperButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BFPaperButton.framework; path = BFPaperButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		346CB7EEEB4035DABC76D20676DE9678 /* MBCircularProgressBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBCircularProgressBarView.m; path = Pod/Classes/MBCircularProgressBarView.m; sourceTree = "<group>"; };
+		350C35CE98CADF9A34D2C30568D2C89C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3528649E3092DCF46911F76BA2927B8C /* Pods-Snow Day CalculatorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Snow Day CalculatorUITests-dummy.m"; sourceTree = "<group>"; };
+		3823655CABD61A0F893788B190793DA6 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		39A0A5BD7B1C8CCBB8D49471B9A32855 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		39FD27C15760028D088D4802BC7A85AC /* example.png */ = {isa = PBXFileReference; includeInIndex = 1; name = example.png; path = Pod/Assets/example.png; sourceTree = "<group>"; };
+		3C124C70FAF90CB671E558A4AE61994A /* INTULocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INTULocationManager.m; path = LocationManager/INTULocationManager/INTULocationManager.m; sourceTree = "<group>"; };
+		3D45306171E162F7577A0E36AC89E78F /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		3E73B4A041F63137132B1D1161E14034 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		3F3BDA607419E025FEF9E9FC4F2CC3F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FDF62CB3306D3364EF670FCCF08A45F /* Pods-Snow Day CalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Snow Day CalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		4035C5051D898AAEB0A31D092C65DFAC /* MBCircularProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBCircularProgressBar-dummy.m"; sourceTree = "<group>"; };
+		43EDC1961A5F74DC6B0F931EBB3F1415 /* INTULocationManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "INTULocationManager-prefix.pch"; sourceTree = "<group>"; };
+		451E5B64BBAC3027A5F9390AA7077E22 /* Pods-Snow Day Calculator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Snow Day Calculator-acknowledgements.plist"; sourceTree = "<group>"; };
+		45EA155A4C68CC70EABC41974A70B38A /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		47204F2C0698C2E3B0C14A38EC1B8A82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A3099C04907B88E638367F965CC2981 /* Pods_Snow_Day_CalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Snow_Day_CalculatorUITests.framework; path = "Pods-Snow Day CalculatorUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D49B44B9F0D7C1F3086B9FDF7CB2442 /* BFPaperButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BFPaperButton-dummy.m"; sourceTree = "<group>"; };
+		5291307A4F4AF221070E0034B5CAAF2F /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		52FF6E72E570889DDE56E5F9C86EB7D6 /* Pods-Snow Day Calculator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Snow Day Calculator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		539E6E4CE2C4DF70FA973473BB26064A /* Pods-Snow Day CalculatorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Snow Day CalculatorTests.modulemap"; sourceTree = "<group>"; };
+		5512D37661189A9B9F576A6EC877EF96 /* Pods-Snow Day Calculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Snow Day Calculator-dummy.m"; sourceTree = "<group>"; };
+		5528B4C20A9F16745D1449FED24088A2 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		56F51968E9C2F79FEB04FAE2EF90609F /* Pods-Snow Day CalculatorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Snow Day CalculatorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		56FD5A2E6A432E7EC88288E148A62980 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		5957AB6CD1793BB8B2FD0EF2DA18935B /* INTULocationRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INTULocationRequest.m; path = LocationManager/INTULocationManager/INTULocationRequest.m; sourceTree = "<group>"; };
+		598F445DA4BBD623848FEAF1032ED22F /* Pods-Snow Day CalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Snow Day CalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BA2A85E91472D9682C2A12B3F362E1A /* MBCircularProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBCircularProgressBar-umbrella.h"; sourceTree = "<group>"; };
+		5C3076143126055C32B4622C7091B768 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		5C6A30843F1D731BDA6A111AF8740DA6 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		5DCB3DC451F0BF7782D379C888EAB460 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		62D7CB03589DBDA2A8D907840B9FC3C1 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		651E62A213ED49C9F59F09B4C27668B4 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		6716C19075E0EC973B075DD40AE80AFC /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		681F4E262F4B83D88745E14A64A1BA22 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		690E74FC4F632C5F029EF5FBE57CAD52 /* Pods-Snow Day CalculatorTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Snow Day CalculatorTests-frameworks.sh"; sourceTree = "<group>"; };
+		6948EB1CFF776165DCC972D85E52A2EB /* INTULocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INTULocationManager.h; path = LocationManager/INTULocationManager/INTULocationManager.h; sourceTree = "<group>"; };
+		6CA9F1A6E1D3F33DCB5B3DACEC7F47F7 /* Pods-Snow Day Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Snow Day Calculator.release.xcconfig"; sourceTree = "<group>"; };
+		72A1527078223645497189F2C9CBB7B9 /* Pods-Snow Day Calculator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Snow Day Calculator.modulemap"; sourceTree = "<group>"; };
+		730D2C74695C0C2867278B014180267B /* Pods-Snow Day Calculator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Snow Day Calculator-umbrella.h"; sourceTree = "<group>"; };
+		758626E047B65347744E62EE273ED465 /* Pods-Snow Day CalculatorUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Snow Day CalculatorUITests-frameworks.sh"; sourceTree = "<group>"; };
+		78121646FEE52EA87FCEBA93DBBC98B3 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		788E6BF664C981A693B1842139C47B55 /* INTULocationRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INTULocationRequest.h; path = LocationManager/INTULocationManager/INTULocationRequest.h; sourceTree = "<group>"; };
+		796D46CE02EE6CD698B35B1B7AC5E717 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		7CB24243CB561CFF9B1BF8EFC9355502 /* MBCircularProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MBCircularProgressBar.modulemap; sourceTree = "<group>"; };
+		7D66CE37B41789943D67ACD61BABF43C /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		8BFA4462C546DA568AEA5C79C0456515 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		8CDE951025692E940A2C9006D9ACE9E7 /* Pods-Snow Day Calculator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Snow Day Calculator-frameworks.sh"; sourceTree = "<group>"; };
+		8E14730646FDB104A30355770E15BBD3 /* MBCircularProgressBar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MBCircularProgressBar.bundle; path = MBCircularProgressBar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F2F77B73703CFD70F4FA22C1E1A53AD /* Pods-Snow Day CalculatorUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Snow Day CalculatorUITests-resources.sh"; sourceTree = "<group>"; };
+		92481493874A15ADAFE1CB89E4E6EEFA /* BFPaperButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFPaperButton.m; path = Classes/BFPaperButton.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9700E55214729EB1DE10616CD35CBB8E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98463E43785B8309717EA4F21EB924F3 /* Pods-Snow Day CalculatorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Snow Day CalculatorTests-dummy.m"; sourceTree = "<group>"; };
+		9999D2AA630F4E02D603E102918E3DE2 /* INTULocationManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = INTULocationManager.framework; path = INTULocationManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA5996E32AD32C349FA07C89A759B6F /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		9CBB345B6EF040280063DAABA1A2F149 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		9D022E4AD0712A502E5F559961C289B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F3607E55547E7D41A7EB31529D1F9F3 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		A0A622B410675186E5FF3561121D57EF /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		A7587E0E76BCFFC9944841FA404C6317 /* Pods-Snow Day CalculatorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Snow Day CalculatorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A76E96CC2DAA6478722A60D3A35FFC99 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		A89CB968757EBB3A60075C437880D20C /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		B3BCA5E21343D6682FA3DE3D60B20E53 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		B4521198EA253B581E9FC473F87486B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7C2F531C4A58D51755A8E6878DB982A /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		B8851C4A57B907A2813B6D9717138183 /* INTULocationManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = INTULocationManager.modulemap; sourceTree = "<group>"; };
+		BB62C2C7A1D6F6E2A991496356F0E81E /* Pods-Snow Day CalculatorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Snow Day CalculatorUITests-umbrella.h"; sourceTree = "<group>"; };
+		BBF041184BC4D9F9A84B76BBA0EF4E61 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		BD3126958610DEF0A6445A1FE662CFB8 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		BD6C3E84EC9DB4125453359C1F47CA4E /* INTULocationManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "INTULocationManager-dummy.m"; sourceTree = "<group>"; };
+		BE47AB605AAAFC28C66BD9990D98911B /* Pods-Snow Day CalculatorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Snow Day CalculatorTests-umbrella.h"; sourceTree = "<group>"; };
+		C20D8029224B74EFA5AB3D8FFEFA76CB /* Pods_Snow_Day_Calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Snow_Day_Calculator.framework; path = "Pods-Snow Day Calculator.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68FA2F24CCC02D05519168E550440CC /* MBCircularProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBCircularProgressBar.framework; path = MBCircularProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C89178C3C38D55A94C3033BC7F311996 /* Pods-Snow Day CalculatorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Snow Day CalculatorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C9CA7A375243206B11022B3C11C4BD59 /* INTURequestIDGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INTURequestIDGenerator.h; path = LocationManager/INTULocationManager/INTURequestIDGenerator.h; sourceTree = "<group>"; };
+		CAF2EF8BB55A088B48D3F772E4F5A44E /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		CC830B6CFDBD9FB489046AF834CED6CA /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		CD2C6681272DE69659D844B550FA30D0 /* INTULocationManager+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "INTULocationManager+Internal.h"; path = "LocationManager/INTULocationManager/INTULocationManager+Internal.h"; sourceTree = "<group>"; };
+		D09FE474749FA888E1F17018D0137B7D /* BFPaperButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFPaperButton.h; path = Classes/BFPaperButton.h; sourceTree = "<group>"; };
+		D0CDEAF9A7B094320750DE7B89E4EC5B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		D56032CA26ED83029757ABF8D2DB491E /* INTULocationManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "INTULocationManager-umbrella.h"; sourceTree = "<group>"; };
+		D708E70707D8AE0EFFC9D1B88C17DD9D /* BFPaperButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BFPaperButton-umbrella.h"; sourceTree = "<group>"; };
+		D7582D949435656A14394D7D303D2B02 /* Pods-Snow Day Calculator-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Snow Day Calculator-resources.sh"; sourceTree = "<group>"; };
+		D92B71D59285474AAF4AAA4347CE04CD /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		D9DD177944277C4AB632D6C94ECBE29A /* MBCircularProgressBarLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBCircularProgressBarLayer.m; path = Pod/Classes/MBCircularProgressBarLayer.m; sourceTree = "<group>"; };
+		DA4878F9A1571D9003030A55D42AA4E7 /* INTULocationRequestDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INTULocationRequestDefines.h; path = LocationManager/INTULocationManager/INTULocationRequestDefines.h; sourceTree = "<group>"; };
+		DD20AFBA183E17255470992A5FC37ED6 /* ResourceBundle-MBCircularProgressBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MBCircularProgressBar-Info.plist"; sourceTree = "<group>"; };
+		DD8FEFEB302A477D48972314662FBAE1 /* Pods-Snow Day CalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Snow Day CalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DF5A56EB24E17670B03C800890A98931 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		E3F939B562C2E7E4193F0E6EB92BDEE9 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		E666FDCB406548FFD5DBA6E82192F36E /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		E684E944602D8146BB426EE370B975F4 /* INTUHeadingRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INTUHeadingRequest.m; path = LocationManager/INTULocationManager/INTUHeadingRequest.m; sourceTree = "<group>"; };
+		E6DD7364B3D59E96AF33E8ED31FD9F43 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		E76D880332551A3C28F7BCCD15D02BEC /* Pods-Snow Day Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Snow Day Calculator.debug.xcconfig"; sourceTree = "<group>"; };
+		E82897BABE411E18D79BEB095822A6CE /* Pods-Snow Day CalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Snow Day CalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E89796F7B416C0FB4728BADD661D6567 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		EACBDD037F9FCDA9258D562DD2300B31 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED136FB9E29A2588BC2DE07B874ECDFE /* BFPaperButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BFPaperButton.modulemap; sourceTree = "<group>"; };
+		F0536CF957EC483398EF7CC58CE43A8B /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		F2A1B0D76682683A25E1E8FA6FCC46E9 /* INTUHeadingRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INTUHeadingRequest.h; path = LocationManager/INTULocationManager/INTUHeadingRequest.h; sourceTree = "<group>"; };
+		F330D4482B92FD970CBA36EA1E2ACEE0 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		F3CECA55BCEAC0A32664D8567C8D0C0F /* MBCircularProgressBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBCircularProgressBar.xcconfig; sourceTree = "<group>"; };
+		F7E9EBAB3109313F97559999A1337FD2 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		FDFD1C59974F3C85955157C5F1DB294E /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		FF114D169B454018896ADAF3C65B812C /* MBCircularProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBCircularProgressBar-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1706571930CAAF4C3990F472F77AF4FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				985455937E6A5BB0F688114602D14646 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF9FD449FBBAD74AF1D96F027C1B5CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93DF3E0EE780C6ACB49739731776FD45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F44911563C03EE01D7E49B4C1F0D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2D29D9265012FAC7A88D9A8CCD9989 /* CoreGraphics.framework in Frameworks */,
+				BC22E83FBE012D2A1B6B72B886832AF4 /* Foundation.framework in Frameworks */,
+				72BE65E696A388D4CC0D75BE461FEF1B /* MobileCoreServices.framework in Frameworks */,
+				23EFB184AD12FB1014FFC765CE0D710A /* Security.framework in Frameworks */,
+				CE2EB8CE3176F8A1FAA78CC8786292CC /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB1B21FFE3B565A90266277AE2A5852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C312F6DD0048872E4963078DA88FEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9028771DF9653AC8BC73B225852343ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D063B05C396E0F79974DEF371A5BD58D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F41C4362CC0D06951C565319CB3C41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337323E176DFB535C7024A41100B3A11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA83FDD4EF2FF8BFA6B0418F44B4A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF4BBA7D699B5C9E9D37DF36D9395E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200D57A5303CEB59EEB441C65304DE54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3159D7CAFD56B809F40CA3330DA10889 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05553F706E0EC42FCC63D1E5183FA14E /* Pods-Snow Day CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47204F2C0698C2E3B0C14A38EC1B8A82 /* Info.plist */,
+				1CB6A7E3CC4D2C38F82BCCCAD993DF95 /* Pods-Snow Day CalculatorUITests.modulemap */,
+				56F51968E9C2F79FEB04FAE2EF90609F /* Pods-Snow Day CalculatorUITests-acknowledgements.markdown */,
+				0EF53D5541906F2417509AA7BCC94956 /* Pods-Snow Day CalculatorUITests-acknowledgements.plist */,
+				3528649E3092DCF46911F76BA2927B8C /* Pods-Snow Day CalculatorUITests-dummy.m */,
+				758626E047B65347744E62EE273ED465 /* Pods-Snow Day CalculatorUITests-frameworks.sh */,
+				8F2F77B73703CFD70F4FA22C1E1A53AD /* Pods-Snow Day CalculatorUITests-resources.sh */,
+				BB62C2C7A1D6F6E2A991496356F0E81E /* Pods-Snow Day CalculatorUITests-umbrella.h */,
+				598F445DA4BBD623848FEAF1032ED22F /* Pods-Snow Day CalculatorUITests.debug.xcconfig */,
+				DD8FEFEB302A477D48972314662FBAE1 /* Pods-Snow Day CalculatorUITests.release.xcconfig */,
+			);
+			name = "Pods-Snow Day CalculatorUITests";
+			path = "Target Support Files/Pods-Snow Day CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		056DCF6DEFB2AB5243964636B27F1613 /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				39A0A5BD7B1C8CCBB8D49471B9A32855 /* GTMNSData+zlib.h */,
+				3E73B4A041F63137132B1D1161E14034 /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		05B55DFFACCD9F333E86E2EF446DD015 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				20CB4FD24578B35484925C4D9A27FC62 /* CoreGraphics.framework */,
+				350C35CE98CADF9A34D2C30568D2C89C /* Foundation.framework */,
+				268F47AC608D1CB011B9CAEAEA7B8824 /* MobileCoreServices.framework */,
+				5C3076143126055C32B4622C7091B768 /* Security.framework */,
+				D0CDEAF9A7B094320750DE7B89E4EC5B /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0E15FD73D4F769F39E6BCC558066D2E5 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				51DF15D02B247F765EED6B1A3BE39339 /* Frameworks */,
+			);
+			name = GoogleSymbolUtilities;
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		1379EBF836DDFEF4AC3C21CACF67C06F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED136FB9E29A2588BC2DE07B874ECDFE /* BFPaperButton.modulemap */,
+				23CC4F66DE19131C673138A648A4C45C /* BFPaperButton.xcconfig */,
+				4D49B44B9F0D7C1F3086B9FDF7CB2442 /* BFPaperButton-dummy.m */,
+				16DAB8923AAA026E5417008FB1D8CDA0 /* BFPaperButton-prefix.pch */,
+				D708E70707D8AE0EFFC9D1B88C17DD9D /* BFPaperButton-umbrella.h */,
+				1E7C14D5721A7C8311E818132732D2C2 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BFPaperButton";
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05B55DFFACCD9F333E86E2EF446DD015 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CFB9762876B634367F51745780C83FF /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				47296419D26F6C5AD725F084AA324F68 /* Defines */,
+				056DCF6DEFB2AB5243964636B27F1613 /* NSData+zlib */,
+				60021E77F07AE9420129370E5285D758 /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		357CCE27B78DC4FF096E54C3228AE229 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E8F12D81B9260E5960DBC616CC9A734 /* AFNetworking.modulemap */,
+				0E13861CEDA8B44EA7B3EA87674C9F4C /* AFNetworking.xcconfig */,
+				CAF2EF8BB55A088B48D3F772E4F5A44E /* AFNetworking-dummy.m */,
+				E6DD7364B3D59E96AF33E8ED31FD9F43 /* AFNetworking-prefix.pch */,
+				F7E9EBAB3109313F97559999A1337FD2 /* AFNetworking-umbrella.h */,
+				3F3BDA607419E025FEF9E9FC4F2CC3F9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		366F16B2903DCDC4B8B8F72A59F76BE8 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				B7A3A7D23CC94A16532DF7052A6B3355 /* Frameworks */,
+			);
+			name = GoogleInterchangeUtilities;
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		43248BE5ED1D5DCBA6EBC093869A9A34 /* Pods-Snow Day Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				129CB2B9A91F5B1DF2FA4290AE6BDA0E /* Info.plist */,
+				72A1527078223645497189F2C9CBB7B9 /* Pods-Snow Day Calculator.modulemap */,
+				52FF6E72E570889DDE56E5F9C86EB7D6 /* Pods-Snow Day Calculator-acknowledgements.markdown */,
+				451E5B64BBAC3027A5F9390AA7077E22 /* Pods-Snow Day Calculator-acknowledgements.plist */,
+				5512D37661189A9B9F576A6EC877EF96 /* Pods-Snow Day Calculator-dummy.m */,
+				8CDE951025692E940A2C9006D9ACE9E7 /* Pods-Snow Day Calculator-frameworks.sh */,
+				D7582D949435656A14394D7D303D2B02 /* Pods-Snow Day Calculator-resources.sh */,
+				730D2C74695C0C2867278B014180267B /* Pods-Snow Day Calculator-umbrella.h */,
+				E76D880332551A3C28F7BCCD15D02BEC /* Pods-Snow Day Calculator.debug.xcconfig */,
+				6CA9F1A6E1D3F33DCB5B3DACEC7F47F7 /* Pods-Snow Day Calculator.release.xcconfig */,
+			);
+			name = "Pods-Snow Day Calculator";
+			path = "Target Support Files/Pods-Snow Day Calculator";
+			sourceTree = "<group>";
+		};
+		47296419D26F6C5AD725F084AA324F68 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A56EB24E17670B03C800890A98931 /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		4F8BD7A8397686E4339432FB3AF35FB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				796D46CE02EE6CD698B35B1B7AC5E717 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51DF15D02B247F765EED6B1A3BE39339 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E89796F7B416C0FB4728BADD661D6567 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		569756B4ECD4261CC5A13ADA2DB39F3E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				43248BE5ED1D5DCBA6EBC093869A9A34 /* Pods-Snow Day Calculator */,
+				D120483E1A26BB18ED21BFC795AB6C6D /* Pods-Snow Day CalculatorTests */,
+				05553F706E0EC42FCC63D1E5183FA14E /* Pods-Snow Day CalculatorUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		60021E77F07AE9420129370E5285D758 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62D7CB03589DBDA2A8D907840B9FC3C1 /* GoogleToolboxForMac.modulemap */,
+				45EA155A4C68CC70EABC41974A70B38A /* GoogleToolboxForMac.xcconfig */,
+				2FEF5A436E164844C52E8D7F0EB4C3BB /* GoogleToolboxForMac-dummy.m */,
+				BBF041184BC4D9F9A84B76BBA0EF4E61 /* GoogleToolboxForMac-prefix.pch */,
+				0CFD8A690D486462D27E7371B9D52461 /* GoogleToolboxForMac-umbrella.h */,
+				9D022E4AD0712A502E5F559961C289B9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		64F688CC1FDC113CB3F0D8DB02306701 /* INTULocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				F2A1B0D76682683A25E1E8FA6FCC46E9 /* INTUHeadingRequest.h */,
+				E684E944602D8146BB426EE370B975F4 /* INTUHeadingRequest.m */,
+				6948EB1CFF776165DCC972D85E52A2EB /* INTULocationManager.h */,
+				3C124C70FAF90CB671E558A4AE61994A /* INTULocationManager.m */,
+				CD2C6681272DE69659D844B550FA30D0 /* INTULocationManager+Internal.h */,
+				788E6BF664C981A693B1842139C47B55 /* INTULocationRequest.h */,
+				5957AB6CD1793BB8B2FD0EF2DA18935B /* INTULocationRequest.m */,
+				DA4878F9A1571D9003030A55D42AA4E7 /* INTULocationRequestDefines.h */,
+				C9CA7A375243206B11022B3C11C4BD59 /* INTURequestIDGenerator.h */,
+				2EDCCBA3C16F7996557C1BB64C717B5F /* INTURequestIDGenerator.m */,
+				7AAD3D56DBAF4543C55E0165BAD6EA2C /* Support Files */,
+			);
+			name = INTULocationManager;
+			path = INTULocationManager;
+			sourceTree = "<group>";
+		};
+		6D714D20849194EA82539A77D315CD81 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				56FD5A2E6A432E7EC88288E148A62980 /* AFNetworkReachabilityManager.h */,
+				2AC7E53218B01876D60935940BA52376 /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		72A037B4EF6F8BEAC330F867C7B91F6F /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				B7C2F531C4A58D51755A8E6878DB982A /* FIRInstanceID.h */,
+				848B870FBA70B0BCE276EF283348DCC2 /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		7A4C37937E0ACBAED828798626578088 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				78121646FEE52EA87FCEBA93DBBC98B3 /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		7AAD3D56DBAF4543C55E0165BAD6EA2C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				681F4E262F4B83D88745E14A64A1BA22 /* Info.plist */,
+				B8851C4A57B907A2813B6D9717138183 /* INTULocationManager.modulemap */,
+				0DE6182B2CD76C59A36819891EDB73BF /* INTULocationManager.xcconfig */,
+				BD6C3E84EC9DB4125453359C1F47CA4E /* INTULocationManager-dummy.m */,
+				43EDC1961A5F74DC6B0F931EBB3F1415 /* INTULocationManager-prefix.pch */,
+				D56032CA26ED83029757ABF8D2DB491E /* INTULocationManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/INTULocationManager";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				8102C5CDBA1D1B14C18D041F9E05762A /* Pods */,
+				9C091106C5A72E05839ED5C08BD1D711 /* Products */,
+				569756B4ECD4261CC5A13ADA2DB39F3E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8102C5CDBA1D1B14C18D041F9E05762A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD33A00530C5C54A502EFE48677BFEBA /* AFNetworking */,
+				9B798D8A88119DB23E2BAF161FCF56E2 /* BFPaperButton */,
+				F4B98D9A2B86CCDBA0FF541D3E2214FC /* Firebase */,
+				D4FE3BB5A6F6D91E86DBEAE9528A060A /* FirebaseAnalytics */,
+				F20A9598F793746E293D668ABBFD31FC /* FirebaseCore */,
+				72A037B4EF6F8BEAC330F867C7B91F6F /* FirebaseInstanceID */,
+				9D3445763733797A8583300FBC2B2398 /* Google-Mobile-Ads-SDK */,
+				366F16B2903DCDC4B8B8F72A59F76BE8 /* GoogleInterchangeUtilities */,
+				0E15FD73D4F769F39E6BCC558066D2E5 /* GoogleSymbolUtilities */,
+				2CFB9762876B634367F51745780C83FF /* GoogleToolboxForMac */,
+				64F688CC1FDC113CB3F0D8DB02306701 /* INTULocationManager */,
+				AD28388C40B027020252BE642F3ADD08 /* MBCircularProgressBar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8417CEF1E3F75681DC5C203441D3CDCA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				39FD27C15760028D088D4802BC7A85AC /* example.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		848B870FBA70B0BCE276EF283348DCC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BFA4462C546DA568AEA5C79C0456515 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C2102F88EE1E3B950C4DB720C7351A0 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				1B35B4DC29A72522D109D6C46307F0CB /* AFAutoPurgingImageCache.h */,
+				A0A622B410675186E5FF3561121D57EF /* AFAutoPurgingImageCache.m */,
+				CC830B6CFDBD9FB489046AF834CED6CA /* AFImageDownloader.h */,
+				E666FDCB406548FFD5DBA6E82192F36E /* AFImageDownloader.m */,
+				651E62A213ED49C9F59F09B4C27668B4 /* AFNetworkActivityIndicatorManager.h */,
+				2A2CC92595CA663E297FC49F410A10ED /* AFNetworkActivityIndicatorManager.m */,
+				065F257607E819B587428FF185837850 /* UIActivityIndicatorView+AFNetworking.h */,
+				FDFD1C59974F3C85955157C5F1DB294E /* UIActivityIndicatorView+AFNetworking.m */,
+				BD3126958610DEF0A6445A1FE662CFB8 /* UIButton+AFNetworking.h */,
+				9F3607E55547E7D41A7EB31529D1F9F3 /* UIButton+AFNetworking.m */,
+				0E82E9C03B0D28F679D525EA4340EE61 /* UIImage+AFNetworking.h */,
+				9AA5996E32AD32C349FA07C89A759B6F /* UIImageView+AFNetworking.h */,
+				7D66CE37B41789943D67ACD61BABF43C /* UIImageView+AFNetworking.m */,
+				5DCB3DC451F0BF7782D379C888EAB460 /* UIKit+AFNetworking.h */,
+				D92B71D59285474AAF4AAA4347CE04CD /* UIProgressView+AFNetworking.h */,
+				5291307A4F4AF221070E0034B5CAAF2F /* UIProgressView+AFNetworking.m */,
+				1F90293FD6E267648ACEA0F83BC71068 /* UIRefreshControl+AFNetworking.h */,
+				9CBB345B6EF040280063DAABA1A2F149 /* UIRefreshControl+AFNetworking.m */,
+				E3F939B562C2E7E4193F0E6EB92BDEE9 /* UIWebView+AFNetworking.h */,
+				F0536CF957EC483398EF7CC58CE43A8B /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		9A1D49A0C92BD755205916E73CF34CB4 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				6716C19075E0EC973B075DD40AE80AFC /* AFSecurityPolicy.h */,
+				5528B4C20A9F16745D1449FED24088A2 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		9B798D8A88119DB23E2BAF161FCF56E2 /* BFPaperButton */ = {
+			isa = PBXGroup;
+			children = (
+				D09FE474749FA888E1F17018D0137B7D /* BFPaperButton.h */,
+				92481493874A15ADAFE1CB89E4E6EEFA /* BFPaperButton.m */,
+				1379EBF836DDFEF4AC3C21CACF67C06F /* Support Files */,
+			);
+			name = BFPaperButton;
+			path = BFPaperButton;
+			sourceTree = "<group>";
+		};
+		9C091106C5A72E05839ED5C08BD1D711 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EACBDD037F9FCDA9258D562DD2300B31 /* AFNetworking.framework */,
+				3389E1AE65922674BCDB51EF06B7B1A4 /* BFPaperButton.framework */,
+				0F67371F3510877A55DE7D18765EDE44 /* GoogleToolboxForMac.framework */,
+				9999D2AA630F4E02D603E102918E3DE2 /* INTULocationManager.framework */,
+				8E14730646FDB104A30355770E15BBD3 /* MBCircularProgressBar.bundle */,
+				C68FA2F24CCC02D05519168E550440CC /* MBCircularProgressBar.framework */,
+				C20D8029224B74EFA5AB3D8FFEFA76CB /* Pods_Snow_Day_Calculator.framework */,
+				10A91653E2647EBC2329270E726FB265 /* Pods_Snow_Day_CalculatorTests.framework */,
+				4A3099C04907B88E638367F965CC2981 /* Pods_Snow_Day_CalculatorUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D3445763733797A8583300FBC2B2398 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				D6BBEFFC9940943AB6E7B75ED1AAE4AE /* Frameworks */,
+			);
+			name = "Google-Mobile-Ads-SDK";
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		A5EFB952840BF7C4D01BF73C1D0CE233 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3823655CABD61A0F893788B190793DA6 /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD28388C40B027020252BE642F3ADD08 /* MBCircularProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				0E3E1F68F22366DB7B7BD577441831B6 /* MBCircularProgressBarLayer.h */,
+				D9DD177944277C4AB632D6C94ECBE29A /* MBCircularProgressBarLayer.m */,
+				2AC7965B308C7B6E2DE7A4BD3EB94A4A /* MBCircularProgressBarView.h */,
+				346CB7EEEB4035DABC76D20676DE9678 /* MBCircularProgressBarView.m */,
+				8417CEF1E3F75681DC5C203441D3CDCA /* Resources */,
+				EC71FF8EB6AFB4A4F09D90CC1696B37C /* Support Files */,
+			);
+			name = MBCircularProgressBar;
+			path = MBCircularProgressBar;
+			sourceTree = "<group>";
+		};
+		B36FC0F9D2E45DCE3C3015456654E39A /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				F330D4482B92FD970CBA36EA1E2ACEE0 /* AFHTTPSessionManager.h */,
+				0F437153D66B00728E8F9C5282A61F0B /* AFHTTPSessionManager.m */,
+				3D45306171E162F7577A0E36AC89E78F /* AFURLSessionManager.h */,
+				5C6A30843F1D731BDA6A111AF8740DA6 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		B7A3A7D23CC94A16532DF7052A6B3355 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				082D339CAF51C77A502F7C0A60AB8320 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD33A00530C5C54A502EFE48677BFEBA /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				02781CBD8F0EF67054DF463D8DC7DD06 /* AFNetworking.h */,
+				B36FC0F9D2E45DCE3C3015456654E39A /* NSURLSession */,
+				6D714D20849194EA82539A77D315CD81 /* Reachability */,
+				9A1D49A0C92BD755205916E73CF34CB4 /* Security */,
+				F593CF389D9EF44507C0B399EAD7A07B /* Serialization */,
+				357CCE27B78DC4FF096E54C3228AE229 /* Support Files */,
+				8C2102F88EE1E3B950C4DB720C7351A0 /* UIKit */,
+			);
+			name = AFNetworking;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		D120483E1A26BB18ED21BFC795AB6C6D /* Pods-Snow Day CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4521198EA253B581E9FC473F87486B3 /* Info.plist */,
+				539E6E4CE2C4DF70FA973473BB26064A /* Pods-Snow Day CalculatorTests.modulemap */,
+				C89178C3C38D55A94C3033BC7F311996 /* Pods-Snow Day CalculatorTests-acknowledgements.markdown */,
+				A7587E0E76BCFFC9944841FA404C6317 /* Pods-Snow Day CalculatorTests-acknowledgements.plist */,
+				98463E43785B8309717EA4F21EB924F3 /* Pods-Snow Day CalculatorTests-dummy.m */,
+				690E74FC4F632C5F029EF5FBE57CAD52 /* Pods-Snow Day CalculatorTests-frameworks.sh */,
+				1D259301D44A6A8ECD4509D64BD3643D /* Pods-Snow Day CalculatorTests-resources.sh */,
+				BE47AB605AAAFC28C66BD9990D98911B /* Pods-Snow Day CalculatorTests-umbrella.h */,
+				E82897BABE411E18D79BEB095822A6CE /* Pods-Snow Day CalculatorTests.debug.xcconfig */,
+				3FDF62CB3306D3364EF670FCCF08A45F /* Pods-Snow Day CalculatorTests.release.xcconfig */,
+			);
+			name = "Pods-Snow Day CalculatorTests";
+			path = "Target Support Files/Pods-Snow Day CalculatorTests";
+			sourceTree = "<group>";
+		};
+		D4FE3BB5A6F6D91E86DBEAE9528A060A /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				4F8BD7A8397686E4339432FB3AF35FB1 /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		D6BBEFFC9940943AB6E7B75ED1AAE4AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19AE5396592B7EC4E1284F0F7BACDCA8 /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC71FF8EB6AFB4A4F09D90CC1696B37C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9700E55214729EB1DE10616CD35CBB8E /* Info.plist */,
+				7CB24243CB561CFF9B1BF8EFC9355502 /* MBCircularProgressBar.modulemap */,
+				F3CECA55BCEAC0A32664D8567C8D0C0F /* MBCircularProgressBar.xcconfig */,
+				4035C5051D898AAEB0A31D092C65DFAC /* MBCircularProgressBar-dummy.m */,
+				FF114D169B454018896ADAF3C65B812C /* MBCircularProgressBar-prefix.pch */,
+				5BA2A85E91472D9682C2A12B3F362E1A /* MBCircularProgressBar-umbrella.h */,
+				DD20AFBA183E17255470992A5FC37ED6 /* ResourceBundle-MBCircularProgressBar-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBCircularProgressBar";
+			sourceTree = "<group>";
+		};
+		F20A9598F793746E293D668ABBFD31FC /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				A5EFB952840BF7C4D01BF73C1D0CE233 /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		F4B98D9A2B86CCDBA0FF541D3E2214FC /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				7A4C37937E0ACBAED828798626578088 /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		F593CF389D9EF44507C0B399EAD7A07B /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				1B0A9FC8966756AA74C2755AEBA3C361 /* AFURLRequestSerialization.h */,
+				A89CB968757EBB3A60075C437880D20C /* AFURLRequestSerialization.m */,
+				B3BCA5E21343D6682FA3DE3D60B20E53 /* AFURLResponseSerialization.h */,
+				A76E96CC2DAA6478722A60D3A35FFC99 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03309B89B1BCF63E15D7C06F16D03F95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8E4D09482C1775B19A79AFAC89DC5D6 /* Pods-Snow Day Calculator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EEAF7B33751CA1323A6654943850641 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0882C54F87FC8AA36784F4C9807F41EE /* Pods-Snow Day CalculatorTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9C7CA2523496D07CD7F26C918D7881 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28818D2A2515DCB4353FBA631E3802A8 /* MBCircularProgressBar-umbrella.h in Headers */,
+				5D87F3DADCD4493C556A08CE44F15C8B /* MBCircularProgressBarLayer.h in Headers */,
+				A17E6E1C53C7D3D2FA803DF74A013B78 /* MBCircularProgressBarView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF51EB9C179540355326BC18C9FAF5E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F04CBDF6C54B220F6AEECEF15264D5 /* AFAutoPurgingImageCache.h in Headers */,
+				4442D8453D210EFC13CFE2CAF862ED1D /* AFHTTPSessionManager.h in Headers */,
+				FEF6EACE962EAE70E2EAC5F3C83EF7C8 /* AFImageDownloader.h in Headers */,
+				7A112C0F21A62CB6F1AA8D917A6EEA6C /* AFNetworkActivityIndicatorManager.h in Headers */,
+				1E2A6D057E20BE8F5ED3E594F7B8C286 /* AFNetworking-umbrella.h in Headers */,
+				35CBB7B255FD8D412AFCECBC4311A847 /* AFNetworking.h in Headers */,
+				93DFC0CC12E763AE770017349EE009D1 /* AFNetworkReachabilityManager.h in Headers */,
+				6573AF9ABA59AC8D1F52B07088197F71 /* AFSecurityPolicy.h in Headers */,
+				F1CAA2EBDDFF558DEF98684F2479A7AF /* AFURLRequestSerialization.h in Headers */,
+				948458DC0A9308A2D8C018C37FB7BBDD /* AFURLResponseSerialization.h in Headers */,
+				AE976B0E8E3DD81E4F49DBEF19D3C0AD /* AFURLSessionManager.h in Headers */,
+				45F802D04B3BE0CAEC586C2F3016027B /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				2B0705CC26A4CBEE32A5A60284AED35B /* UIButton+AFNetworking.h in Headers */,
+				9264BD69AFA8EE74F0D7F0EBD74F762F /* UIImage+AFNetworking.h in Headers */,
+				0D1FFD30267C0776FD3E88EFF51E312F /* UIImageView+AFNetworking.h in Headers */,
+				E23B9A6F533461CB33C0FA6FB59E3AB2 /* UIKit+AFNetworking.h in Headers */,
+				F84DD74BB7F612DE372F8C051420DF72 /* UIProgressView+AFNetworking.h in Headers */,
+				00C05031BBA5BA48A00FE41348F41BDA /* UIRefreshControl+AFNetworking.h in Headers */,
+				51047C1945103943F70BEADE83725630 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70822848E278F120A23510F91D53285 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E1039D6CCDF693BF6771F4FB086280 /* Pods-Snow Day CalculatorUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FAA6E112641FBF33889C93501D8FE1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C718CA3D36C65305618530ADE3CCA8 /* BFPaperButton-umbrella.h in Headers */,
+				DEA2AEF28562AD6951D233089709E705 /* BFPaperButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */,
+				541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */,
+				DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6A529E5F578B98926EF5D94D3376BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F155D2D24D95188552AA2B02124077 /* INTUHeadingRequest.h in Headers */,
+				1488E9BD5532C6379221C9405B86340C /* INTULocationManager+Internal.h in Headers */,
+				29D1A2C7DDF7D1E1DB4B5041926753FD /* INTULocationManager-umbrella.h in Headers */,
+				21546BC02382FE26D1584347268796D7 /* INTULocationManager.h in Headers */,
+				EC2D810ABC3BE27AEA28D176BB7EEE74 /* INTULocationRequest.h in Headers */,
+				82B6E3BB000BCCB4672B18DE8FFA8D0D /* INTULocationRequestDefines.h in Headers */,
+				EDA38BDB7DEA4B1356D3D633D6FE6BA6 /* INTURequestIDGenerator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */,
+				F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */,
+				FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = 0F67371F3510877A55DE7D18765EDE44 /* GoogleToolboxForMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0AD0BB4A92A7E15CDA2D402E6AF3639E /* BFPaperButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB5028EEC792B052877AACAAA6CCEBF5 /* Build configuration list for PBXNativeTarget "BFPaperButton" */;
+			buildPhases = (
+				58ED52010260D07AEB2E5406948C754A /* Sources */,
+				9028771DF9653AC8BC73B225852343ED /* Frameworks */,
+				D7FAA6E112641FBF33889C93501D8FE1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BFPaperButton;
+			productName = BFPaperButton;
+			productReference = 3389E1AE65922674BCDB51EF06B7B1A4 /* BFPaperButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E683DB16DC4643221505F9973C9BC36 /* INTULocationManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88AD932067C35AF35868342A0F17078 /* Build configuration list for PBXNativeTarget "INTULocationManager" */;
+			buildPhases = (
+				365B69477D48034979E38333BD72CA53 /* Sources */,
+				1706571930CAAF4C3990F472F77AF4FF /* Frameworks */,
+				FE6A529E5F578B98926EF5D94D3376BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = INTULocationManager;
+			productName = INTULocationManager;
+			productReference = 9999D2AA630F4E02D603E102918E3DE2 /* INTULocationManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CAC840DD7C14BED838F74AD37CD7CBBA /* MBCircularProgressBar-MBCircularProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605D5A449D02B28D2C6B396D7E8A5C3A /* Build configuration list for PBXNativeTarget "MBCircularProgressBar-MBCircularProgressBar" */;
+			buildPhases = (
+				9AEC3FFB5B6F48E0E5F2DF217DFADADF /* Sources */,
+				BAA83FDD4EF2FF8BFA6B0418F44B4A73 /* Frameworks */,
+				6C2CE00CA70151DC9B5F9EE985331B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MBCircularProgressBar-MBCircularProgressBar";
+			productName = "MBCircularProgressBar-MBCircularProgressBar";
+			productReference = 8E14730646FDB104A30355770E15BBD3 /* MBCircularProgressBar.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		CF671F7E57B92905F1CC91D036D6B4A7 /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31E01BC98C827BD8A78F94173CDCC418 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				6A10001116C48A3F5FDB7E1BC749EECD /* Sources */,
+				57F44911563C03EE01D7E49B4C1F0D0A /* Frameworks */,
+				BF51EB9C179540355326BC18C9FAF5E5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = EACBDD037F9FCDA9258D562DD2300B31 /* AFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D98D52422BF308619FA9FA96F4AA007F /* Pods-Snow Day CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B25D8DF689C0353C86A52CF7B82D372 /* Build configuration list for PBXNativeTarget "Pods-Snow Day CalculatorTests" */;
+			buildPhases = (
+				8416E3597D57EB766FB9F9005FD75112 /* Sources */,
+				91F41C4362CC0D06951C565319CB3C41 /* Frameworks */,
+				4EEAF7B33751CA1323A6654943850641 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Snow Day CalculatorTests";
+			productName = "Pods-Snow Day CalculatorTests";
+			productReference = 10A91653E2647EBC2329270E726FB265 /* Pods_Snow_Day_CalculatorTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3F53EA60FECB05113726A052E22B1FF /* Pods-Snow Day CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B05A6DA6A679DC5ED61EE8E941752F /* Build configuration list for PBXNativeTarget "Pods-Snow Day CalculatorUITests" */;
+			buildPhases = (
+				A0FD93F12641A4101782322D6D2F4888 /* Sources */,
+				2BF9FD449FBBAD74AF1D96F027C1B5CC /* Frameworks */,
+				C70822848E278F120A23510F91D53285 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Snow Day CalculatorUITests";
+			productName = "Pods-Snow Day CalculatorUITests";
+			productReference = 4A3099C04907B88E638367F965CC2981 /* Pods_Snow_Day_CalculatorUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE4CBE3AD17DE5E3005C7D60990A45B5 /* Pods-Snow Day Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D61CB3444ECC81DF798DC12ABF07482 /* Build configuration list for PBXNativeTarget "Pods-Snow Day Calculator" */;
+			buildPhases = (
+				C76A09C7C439F0B3646BE47D197FDF2F /* Sources */,
+				DFF4BBA7D699B5C9E9D37DF36D9395E0 /* Frameworks */,
+				03309B89B1BCF63E15D7C06F16D03F95 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61D3FB3B68BF04ED59CD1E9D314E7D62 /* PBXTargetDependency */,
+				B7AB04FA04F40AA325B74533B9F6C93C /* PBXTargetDependency */,
+				1DF9D84D8563F816066F9853A9C4EB3E /* PBXTargetDependency */,
+				83F4A2581885E7FE65DF69C960B2703D /* PBXTargetDependency */,
+				793D8908DB16A5065E03E39570A4373A /* PBXTargetDependency */,
+			);
+			name = "Pods-Snow Day Calculator";
+			productName = "Pods-Snow Day Calculator";
+			productReference = C20D8029224B74EFA5AB3D8FFEFA76CB /* Pods_Snow_Day_Calculator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F579AA4D4755DD9570010BC36D0422F7 /* MBCircularProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4E20D41BA21B8C5E09AC977A80690CB /* Build configuration list for PBXNativeTarget "MBCircularProgressBar" */;
+			buildPhases = (
+				F36603F13FBCB3C8DA52E7C6B588ECE1 /* Sources */,
+				8BB1B21FFE3B565A90266277AE2A5852 /* Frameworks */,
+				541A92597D093D377E4169D842C881B6 /* Resources */,
+				AA9C7CA2523496D07CD7F26C918D7881 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D71C0FC33E6BF208246BD36D722BEA99 /* PBXTargetDependency */,
+			);
+			name = MBCircularProgressBar;
+			productName = MBCircularProgressBar;
+			productReference = C68FA2F24CCC02D05519168E550440CC /* MBCircularProgressBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9C091106C5A72E05839ED5C08BD1D711 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF671F7E57B92905F1CC91D036D6B4A7 /* AFNetworking */,
+				0AD0BB4A92A7E15CDA2D402E6AF3639E /* BFPaperButton */,
+				00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */,
+				7E683DB16DC4643221505F9973C9BC36 /* INTULocationManager */,
+				F579AA4D4755DD9570010BC36D0422F7 /* MBCircularProgressBar */,
+				CAC840DD7C14BED838F74AD37CD7CBBA /* MBCircularProgressBar-MBCircularProgressBar */,
+				EE4CBE3AD17DE5E3005C7D60990A45B5 /* Pods-Snow Day Calculator */,
+				D98D52422BF308619FA9FA96F4AA007F /* Pods-Snow Day CalculatorTests */,
+				E3F53EA60FECB05113726A052E22B1FF /* Pods-Snow Day CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		541A92597D093D377E4169D842C881B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF93FCB1E7333C4DA22900A7789ACC8 /* MBCircularProgressBar.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C2CE00CA70151DC9B5F9EE985331B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				319581EA06B005E7BDEB2C12B37266A8 /* example.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		365B69477D48034979E38333BD72CA53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DD7673618BF6AF59FC68A69722345D /* INTUHeadingRequest.m in Sources */,
+				AEDB5A09C919B2C76A5CDDDEED1AB2F1 /* INTULocationManager-dummy.m in Sources */,
+				156FA9C448DC67DEED56D7D7C6D97208 /* INTULocationManager.m in Sources */,
+				BF405FBDE2B9856639547B3423CC89A2 /* INTULocationRequest.m in Sources */,
+				860E9BD386FCD48DB9FDA885FB22255F /* INTURequestIDGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58ED52010260D07AEB2E5406948C754A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B74132BFB0940A10B09CF5D4F86C2F8 /* BFPaperButton-dummy.m in Sources */,
+				374950D0E01AE1218457FA953F1B1965 /* BFPaperButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */,
+				F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A10001116C48A3F5FDB7E1BC749EECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3591DEDA776B48C026E7F9144981E58 /* AFAutoPurgingImageCache.m in Sources */,
+				EAF16633DB3C992CF975BE4A2932D41C /* AFHTTPSessionManager.m in Sources */,
+				A398D63C8DED664D99A864D79881A13C /* AFImageDownloader.m in Sources */,
+				649E78B5EA450FABDF5201E31F265FAB /* AFNetworkActivityIndicatorManager.m in Sources */,
+				CF287829627F26B2EB4382B897D06A0E /* AFNetworking-dummy.m in Sources */,
+				DD887A93A200A87A51B3D00BD1B80D20 /* AFNetworkReachabilityManager.m in Sources */,
+				CEB2F0E229EF841D92C780C3FFDF1BEA /* AFSecurityPolicy.m in Sources */,
+				29476636EA86BEFC4CB833D3BB7A52D7 /* AFURLRequestSerialization.m in Sources */,
+				5A1D34D104D42B1EE399E23BCD7935A0 /* AFURLResponseSerialization.m in Sources */,
+				D4E80BD7EAAB83200183110578A80591 /* AFURLSessionManager.m in Sources */,
+				140F458AB7312414FC423FEED70A3733 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				32076D3DD644045CF79DFFEBB6BFF3F2 /* UIButton+AFNetworking.m in Sources */,
+				F2D899C7AA0D7FC20160091BB9D31CF3 /* UIImageView+AFNetworking.m in Sources */,
+				34C88657FE7ABE9F833623F94952D253 /* UIProgressView+AFNetworking.m in Sources */,
+				B16A078FC7FBC172A266A336AEF7F673 /* UIRefreshControl+AFNetworking.m in Sources */,
+				7CE16B1BF75DF396768A0A3CFD968DB1 /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8416E3597D57EB766FB9F9005FD75112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B646567E08A191AF3EF8535BBA1713 /* Pods-Snow Day CalculatorTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEC3FFB5B6F48E0E5F2DF217DFADADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FD93F12641A4101782322D6D2F4888 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8E7F2C5B466D44689EFF48163E9295 /* Pods-Snow Day CalculatorUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76A09C7C439F0B3646BE47D197FDF2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359162634AD50A9B464062F416C25808 /* Pods-Snow Day Calculator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36603F13FBCB3C8DA52E7C6B588ECE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C8278B25BBE7290F8A0818E1705A86 /* MBCircularProgressBar-dummy.m in Sources */,
+				A94A11448B594303235C9908A4F04A8C /* MBCircularProgressBarLayer.m in Sources */,
+				7B5656D4FDD9E33EA4EAFB591F9D3237 /* MBCircularProgressBarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DF9D84D8563F816066F9853A9C4EB3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */;
+			targetProxy = 9914375C17D91173DBBCDD47FA887950 /* PBXContainerItemProxy */;
+		};
+		61D3FB3B68BF04ED59CD1E9D314E7D62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = CF671F7E57B92905F1CC91D036D6B4A7 /* AFNetworking */;
+			targetProxy = 9F3E7011B3D7FB2579F23B871FC4C272 /* PBXContainerItemProxy */;
+		};
+		793D8908DB16A5065E03E39570A4373A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBCircularProgressBar;
+			target = F579AA4D4755DD9570010BC36D0422F7 /* MBCircularProgressBar */;
+			targetProxy = F3C4B9012EE97A7F4C90930924CA9D12 /* PBXContainerItemProxy */;
+		};
+		83F4A2581885E7FE65DF69C960B2703D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = INTULocationManager;
+			target = 7E683DB16DC4643221505F9973C9BC36 /* INTULocationManager */;
+			targetProxy = 66EABE9B2D84226C8FCA6A9E4A81D932 /* PBXContainerItemProxy */;
+		};
+		B7AB04FA04F40AA325B74533B9F6C93C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BFPaperButton;
+			target = 0AD0BB4A92A7E15CDA2D402E6AF3639E /* BFPaperButton */;
+			targetProxy = 4E916F1723B5FE6B8B194DF75ED35534 /* PBXContainerItemProxy */;
+		};
+		D71C0FC33E6BF208246BD36D722BEA99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MBCircularProgressBar-MBCircularProgressBar";
+			target = CAC840DD7C14BED838F74AD37CD7CBBA /* MBCircularProgressBar-MBCircularProgressBar */;
+			targetProxy = 301A6F64EDD08CFF4C105CE828187E61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		20775C38F3F57E5B1558C80C6359F81D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CA9F1A6E1D3F33DCB5B3DACEC7F47F7 /* Pods-Snow Day Calculator.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Snow Day Calculator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Snow Day Calculator/Pods-Snow Day Calculator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Snow_Day_Calculator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32FD9AA48C0C2618929E4330A18193CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 598F445DA4BBD623848FEAF1032ED22F /* Pods-Snow Day CalculatorUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Snow Day CalculatorUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Snow Day CalculatorUITests/Pods-Snow Day CalculatorUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Snow_Day_CalculatorUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46C45EB343DC9096DC553E2B8FA0C552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45EA155A4C68CC70EABC41974A70B38A /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F322F0E5626600813A58E7BFA0ACDFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45EA155A4C68CC70EABC41974A70B38A /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		505EA4328577764E00937597EC6379FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3CECA55BCEAC0A32664D8567C8D0C0F /* MBCircularProgressBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		570877A1EEEF39C1B130CCEEB53C7B51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E13861CEDA8B44EA7B3EA87674C9F4C /* AFNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6212F9E5649FFE459F61D757CF0E65CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E82897BABE411E18D79BEB095822A6CE /* Pods-Snow Day CalculatorTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Snow Day CalculatorTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Snow Day CalculatorTests/Pods-Snow Day CalculatorTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Snow_Day_CalculatorTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D4359837A9829B4502D37DF5B53784F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23CC4F66DE19131C673138A648A4C45C /* BFPaperButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BFPaperButton/BFPaperButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BFPaperButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BFPaperButton/BFPaperButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BFPaperButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E90FBC4A28736F345E7D4DDFBCB9774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23CC4F66DE19131C673138A648A4C45C /* BFPaperButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BFPaperButton/BFPaperButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BFPaperButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BFPaperButton/BFPaperButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BFPaperButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		81EDA0150E5BD8CDD1828A86FDBC5715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FDF62CB3306D3364EF670FCCF08A45F /* Pods-Snow Day CalculatorTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Snow Day CalculatorTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Snow Day CalculatorTests/Pods-Snow Day CalculatorTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Snow_Day_CalculatorTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6646F4242B659BF18FC82CF17D24332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3CECA55BCEAC0A32664D8567C8D0C0F /* MBCircularProgressBar.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBCircularProgressBar";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/ResourceBundle-MBCircularProgressBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C9CD4A43988CC3CB681BCD6C079063BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E76D880332551A3C28F7BCCD15D02BEC /* Pods-Snow Day Calculator.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Snow Day Calculator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Snow Day Calculator/Pods-Snow Day Calculator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Snow_Day_Calculator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D287FB826EFFEBBE3375293F213C4266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD8FEFEB302A477D48972314662FBAE1 /* Pods-Snow Day CalculatorUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Snow Day CalculatorUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Snow Day CalculatorUITests/Pods-Snow Day CalculatorUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Snow_Day_CalculatorUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA88F093F06F44657D227F22410BDE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3CECA55BCEAC0A32664D8567C8D0C0F /* MBCircularProgressBar.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBCircularProgressBar";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/ResourceBundle-MBCircularProgressBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC3EE9EBDDF7444FC52168CE82FF000C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E13861CEDA8B44EA7B3EA87674C9F4C /* AFNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED61DCC9A03BCCBD119272E0054CEDCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DE6182B2CD76C59A36819891EDB73BF /* INTULocationManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/INTULocationManager/INTULocationManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/INTULocationManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/INTULocationManager/INTULocationManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = INTULocationManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F26E0DE9C2B842E4A9FB8034E93EA3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DE6182B2CD76C59A36819891EDB73BF /* INTULocationManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/INTULocationManager/INTULocationManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/INTULocationManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/INTULocationManager/INTULocationManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = INTULocationManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FAB33F2A71707D20FF0D08902E44DE5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3CECA55BCEAC0A32664D8567C8D0C0F /* MBCircularProgressBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D61CB3444ECC81DF798DC12ABF07482 /* Build configuration list for PBXNativeTarget "Pods-Snow Day Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CD4A43988CC3CB681BCD6C079063BE /* Debug */,
+				20775C38F3F57E5B1558C80C6359F81D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31E01BC98C827BD8A78F94173CDCC418 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3EE9EBDDF7444FC52168CE82FF000C /* Debug */,
+				570877A1EEEF39C1B130CCEEB53C7B51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B25D8DF689C0353C86A52CF7B82D372 /* Build configuration list for PBXNativeTarget "Pods-Snow Day CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6212F9E5649FFE459F61D757CF0E65CE /* Debug */,
+				81EDA0150E5BD8CDD1828A86FDBC5715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605D5A449D02B28D2C6B396D7E8A5C3A /* Build configuration list for PBXNativeTarget "MBCircularProgressBar-MBCircularProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA88F093F06F44657D227F22410BDE95 /* Debug */,
+				A6646F4242B659BF18FC82CF17D24332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4E20D41BA21B8C5E09AC977A80690CB /* Build configuration list for PBXNativeTarget "MBCircularProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB33F2A71707D20FF0D08902E44DE5A /* Debug */,
+				505EA4328577764E00937597EC6379FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46C45EB343DC9096DC553E2B8FA0C552 /* Debug */,
+				4F322F0E5626600813A58E7BFA0ACDFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C88AD932067C35AF35868342A0F17078 /* Build configuration list for PBXNativeTarget "INTULocationManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26E0DE9C2B842E4A9FB8034E93EA3A2 /* Debug */,
+				ED61DCC9A03BCCBD119272E0054CEDCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B05A6DA6A679DC5ED61EE8E941752F /* Build configuration list for PBXNativeTarget "Pods-Snow Day CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FD9AA48C0C2618929E4330A18193CC /* Debug */,
+				D287FB826EFFEBBE3375293F213C4266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB5028EEC792B052877AACAAA6CCEBF5 /* Build configuration list for PBXNativeTarget "BFPaperButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4359837A9829B4502D37DF5B53784F /* Debug */,
+				7E90FBC4A28736F345E7D4DDFBCB9774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
