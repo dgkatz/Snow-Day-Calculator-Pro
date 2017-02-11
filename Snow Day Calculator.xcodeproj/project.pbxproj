@@ -11,6 +11,7 @@
 		2CFF71DE8136E0BA7A5466FB /* Pods_Snow_Day_CalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2896EC41D216BB61211D7AF3 /* Pods_Snow_Day_CalculatorTests.framework */; };
 		4ACF6B2A8D933B6B7D37DC94 /* Pods_Snow_Day_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1F071B13674D7F90381408 /* Pods_Snow_Day_Calculator.framework */; };
 		6551F0821DE5263A00DB5EB6 /* detailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6551F0811DE5263A00DB5EB6 /* detailViewController.m */; };
+		657FA8E61E4FAD3500703FC2 /* mapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657FA8E51E4FAD3500703FC2 /* mapViewController.m */; };
 		658A5F491DE0BD74005F8337 /* Forecastr+CLLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 658A5F431DE0BD74005F8337 /* Forecastr+CLLocation.m */; };
 		658A5F4A1DE0BD74005F8337 /* Forecastr.m in Sources */ = {isa = PBXBuildFile; fileRef = 658A5F451DE0BD74005F8337 /* Forecastr.m */; };
 		658A5F4B1DE0BD74005F8337 /* ForecastrAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 658A5F471DE0BD74005F8337 /* ForecastrAPIClient.m */; };
@@ -83,6 +84,8 @@
 		6329E573581CE0A7B7AA1184 /* Pods-Snow Day CalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snow Day CalculatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snow Day CalculatorTests/Pods-Snow Day CalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
 		6551F0801DE5263A00DB5EB6 /* detailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailViewController.h; sourceTree = "<group>"; };
 		6551F0811DE5263A00DB5EB6 /* detailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailViewController.m; sourceTree = "<group>"; };
+		657FA8E41E4FAD3500703FC2 /* mapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapViewController.h; sourceTree = "<group>"; };
+		657FA8E51E4FAD3500703FC2 /* mapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapViewController.m; sourceTree = "<group>"; };
 		658A5F421DE0BD74005F8337 /* Forecastr+CLLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Forecastr+CLLocation.h"; sourceTree = "<group>"; };
 		658A5F431DE0BD74005F8337 /* Forecastr+CLLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Forecastr+CLLocation.m"; sourceTree = "<group>"; };
 		658A5F441DE0BD74005F8337 /* Forecastr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Forecastr.h; sourceTree = "<group>"; };
@@ -258,6 +261,8 @@
 				65F06F6B1DE3E4C100983F90 /* snowDayCalculator.m */,
 				6551F0801DE5263A00DB5EB6 /* detailViewController.h */,
 				6551F0811DE5263A00DB5EB6 /* detailViewController.m */,
+				657FA8E41E4FAD3500703FC2 /* mapViewController.h */,
+				657FA8E51E4FAD3500703FC2 /* mapViewController.m */,
 			);
 			path = "Snow Day Calculator";
 			sourceTree = "<group>";
@@ -641,6 +646,7 @@
 				658A5F491DE0BD74005F8337 /* Forecastr+CLLocation.m in Sources */,
 				65E111B71DFC8CC900263030 /* BWMarginLabel.m in Sources */,
 				659149581DBBE2EE000FDC9C /* ViewController.m in Sources */,
+				657FA8E61E4FAD3500703FC2 /* mapViewController.m in Sources */,
 				65C7A89B1DBC25B700F09115 /* UIImage+ImageEffects.m in Sources */,
 				6591498E1DBC0253000FDC9C /* ANBlurredImageView.m in Sources */,
 				6551F0821DE5263A00DB5EB6 /* detailViewController.m in Sources */,
